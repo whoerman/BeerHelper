@@ -1,0 +1,27 @@
+body {
+    background: url("./assets/images/home/56DennettFront.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-family: 'Cabin','Courier New', Courier, monospace;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    font-family: 'Cabin','Courier New', Courier, monospace;
+}
+
+.titlehead {
+    text-shadow: 2px 2px #FFFFFF;
+    font-family: 'Cabin','Courier New', Courier, monospace;
+}
+
+.btn {
+    font-size: 1.3rem;
+}
