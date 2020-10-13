@@ -494,6 +494,162 @@ let beerData = [{
         "German Pils"
     ]
 },   {
+    type: 'Marzen',
+    image: 'marzen.jpg',
+    country: 'German',
+    color: {
+        light: 'Gold',
+        dark: 'Dark Amber',
+        lightSRM: 8,
+        darkSRM: 17,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 18,
+        highibu: 24,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5.8,
+        higherabv: 6.3,
+    },
+    flavor: 'A malt-balanced beer with about 0.5 to 1.0% more alcohol than German Pils or Munich Helles. Most examples show malt flavors of bread, toast, and bread crusts.',
+    history: 'Marzen (March) beers were once brewed strong for long summer storage. In 1810 Marzen was used to celebrate the royal wedding that has become the modern-day Oktoberfest.',
+    relatedstyles: [
+        "Festbier", "Munich Dunkel", "Rauchbier", "Vienna Lager"
+    ]
+},   {
+    type: 'Helles Bock',
+    image: 'hellesbock.jpg',
+    country: 'German',
+    color: {
+        light: 'Gold',
+        dark: 'Light Amber',
+        lightSRM: 6,
+        darkSRM: 11,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 23,
+        highibu: 35,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'Elevated',
+        lowerabv: 6.3,
+        higherabv: 7.4,
+    },
+    flavor: 'Has the bready, toasty flavors of a pale Doppelbock, but with less alcoholic strength and more hop flavor, aroma, and bitterness.',
+    history: 'A plae version of bock made to celebrate Spring. Also referred to as Maibock.',
+    relatedstyles: [
+        "Doppelbock", "Dunkles Bock"
+    ]
+},   {
+    type: 'Doppelbock',
+    image: 'doppelbock.jpg',
+    country: 'German',
+    color: {
+        light: 'Gold',
+        dark: 'Brown',
+        lightSRM: 6,
+        darkSRM: 25,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 16,
+        highibu: 26,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 7,
+        higherabv: 10,
+    },
+    flavor: 'Highly malty and often sweet and thick. The malt character follows beer color with pale examples being bready and toasty while darker examples show toffee and chocolate flavors. Alcohol warnth may be apparent.',
+    history: 'Originally brewed by monks as liquid bread for sustenance during fasts.',
+    relatedstyles: [
+        "Dunkles Bock", "Eisbock", "Helles Bock"
+    ]
+},   {
+    type: 'Weissbier',
+    image: 'weissbier.jpg',
+    country: 'German',
+    color: {
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 2,
+        darkSRM: 6,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 8,
+        highibu: 15,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.3,
+        higherabv: 5.6,
+    },
+    flavor: 'Flour-like maltiness of wheat balanced by clove and banana fermentation flavors and high levels of carbonation.',
+    history: 'Weissbier has fluctuated in popularity over several centuries but today is quite popular in bavaria and beyond. Brwed with at least 50% malted wheat. Fermented with a unique yeast strain that produces banana and clove flavors.',
+    relatedstyles: [
+        "American Wheat Beer", "Dunkles Weisbier", "Weizenbock", "Witbier"
+    ]
+},   {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},   {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},   {
     type: '',
     image: '',
     country: '',
