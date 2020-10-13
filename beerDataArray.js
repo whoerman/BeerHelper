@@ -362,7 +362,190 @@ let beerData = [{
     history: 'A variation of stout utilizing oatmeal to enhance body and mouthfeel.',
     relatedstyles: [
         "Irish Stout", "Sweet Stout"
+    ]
 },    {
+    type: 'Wee Heavy',
+    image: 'weeheavy.jpg',
+    country: 'English',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 14,
+        darkSRM: 25,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 17,
+        highibu: 35,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 6.5,
+        higherabv: 10,
+    },
+    flavor: 'Rich caramel malt flavors support by light roasted, nutty, or toasted notes. Hop flavor and bitterness are low and balance is firmly towards malt.',
+    history: 'Similar in formulation and balance to the Scottish ale styles, but considerably stronger. This style may also be called Scottish Ale, 90 shilling (90/-) or 120 shilling (120/-).',
+    relatedstyles: [
+        "Scottish Light", "Scottish Heavy", "Scottish Export"
+    ]
+},   {
+    type: 'Irish Stout',
+    image: 'irishstout.jpg',
+    country: 'English',
+    color: {
+        light: 'Brown',
+        dark: 'Black',
+        lightSRM: 25,
+        darkSRM: 40,
+    },
+    bitter: {
+        type: 'Pronounced',
+        lowibu: 25,
+        highibu: 45,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 4,
+        higherabv: 4.5,
+    },
+    flavor: 'Irish Stout has the lowest alcohol content of the many stout variations. Defined by burnt, acrid, coffe-like flavor from roasted barley. Significant bitterness but little to no hop aroma or flavor.',
+    history: 'Originally a stronger version of porter, stout is now the more varied and well-known style family. Irish STout is sometime labeled as Dry Stout.',
+    relatedstyles: [
+        "Foreign Extra Stout", "Imperial Stout", "Sweet Stout", "Oatmeal Stout"
+    ]
+},   {
+    type: 'German Pils',
+    image: 'germanpils.jpg',
+    country: 'German',
+    color: {
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 2,
+        darkSRM: 5,
+    },
+    bitter: {
+        type: 'Pronounced',
+        lowibu: 22,
+        highibu: 40,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.4,
+        higherabv: 5.2,
+    },
+    flavor: 'Floral, perfumy hops dominant aroma and flavor, criso finish from bitterness. Often has some bread-like pale malt flavor.',
+    history: 'German interpretation of the orginal pilsner from Bohemia (Czech Premium Pale Lager). This style is generally paler, lighter bodied, and less malty than Czech Premium Pale Lager.',
+    relatedstyles: [
+        "Czech Premium Pale Lager", "Kolsch", "Munich Helles"
+    ]
+},   {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},   {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},   {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},   {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},   {
     type: '',
     image: '',
     country: '',

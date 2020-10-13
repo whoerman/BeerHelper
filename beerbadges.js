@@ -11,6 +11,7 @@
             <p class="card-title">' + beerData[i].alcohol.lowerdesc + ' to ' + beerData[i].alcohol.higherdesc + ' Alcohol </p>\
             <p class="card-title">(' + beerData[i].alcohol.lowerabv + '% to ' + beerData[i].alcohol.higherabv + '% ABV)</p>\
             <p class="card-title">' + beerData[i].flavor + '</p>\
+            <p class="card-title"><em>' + beerData[i].history+ '</em></p>\
         </div> \
     </div>';
         document.getElementById("contentdiv").innerHTML += fullBeerCard;
