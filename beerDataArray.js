@@ -4,10 +4,10 @@ let beerData = [{
     image: 'gueuze.jpg',
     country: 'Belgian',
     color: {
-        lightercolor: 'Straw',
-        darkercolor: 'Gold',
-        lighternumber: 3,
-        darkernumber: 7,
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 3,
+        darkSRM: 7,
     },
     bitter: {
         type: 'Very Low',
@@ -30,10 +30,10 @@ let beerData = [{
     image: 'fruitlambic.jpg',
     country: 'Belgian',
     color: {
-        lightercolor: 'Fruit',
-        darkercolor: 'Any',
-        lighternumber: 2,
-        darkernumber: 7,
+        light: 'Fruit',
+        dark: 'Any',
+        lightSRM: 2,
+        darkSRM: 7,
     },
     bitter: {
         type: 'Very Low',
@@ -56,10 +56,10 @@ let beerData = [{
     image: 'flandersred.jpg',
     country: 'Belgian',
     color: {
-        lightercolor: 'Red',
-        darkercolor: 'Brown',
-        lighternumber: 10,
-        darkernumber: 16,
+        light: 'Red',
+        dark: 'Brown',
+        lightSRM: 10,
+        darkSRM: 16,
     },
     bitter: {
         type: 'Low',
@@ -82,10 +82,10 @@ let beerData = [{
     image: 'belgiandubbel.jpg',
     country: 'Belgian',
     color: {
-        lightercolor: 'Light Amber',
-        darkercolor: 'Dark Amber',
-        lighternumber: 10,
-        darkernumber: 17,
+        light: 'Light Amber',
+        dark: 'Dark Amber',
+        lightSRM: 10,
+        darkSRM: 17,
     },
     bitter: {
         type: 'Low',
@@ -108,10 +108,10 @@ let beerData = [{
     image: 'belgiantripel.jpg',
     country: '',
     color: {
-        lightercolor: 'Light Gold',
-        darkercolor: 'Gold',
-        lighternumber: 4.5,
-        darkernumber: 7,
+        light: 'Light Gold',
+        dark: 'Gold',
+        lightSRM: 4.5,
+        darkSRM: 7,
     },
     bitter: {
         type: 'Moderate',
@@ -130,14 +130,222 @@ let beerData = [{
         "Belgian Blond Ale", "Belgian Golden Strong Ale"
     ]
 },    {
+    type: 'Belgian Blond Ale',
+    image: 'belgianblondale.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Light Gold',
+        dark: 'Gold',
+        lightSRM: 4,
+        darkSRM: 7,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 15,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'Elevated',
+        lowerabv: 6,
+        higherabv: 7.5,
+    },
+    flavor: 'Gold in color and malt-balanced. Malt along with frutiy esters gives an impression of sweetness.',
+    history: 'Developed to compete with Pilsner-style beers. Often shows slightly less fermentation character than most other Belgian styles.',
+    relatedstyles: [
+        "Belgian Tripel", "Belgian Golden Strong Ale"
+    ]
+},     {
+    type: 'Belgian Golden Strong Ale',
+    image: 'belgiangoldenstrongale.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 3,
+        darkSRM: 6,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 22,
+        highibu: 35,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'Very High',
+        lowerabv: 7.5,
+        higherabv: 10.5,
+    },
+    flavor: 'These light- to medium-bodied beers often hide their substantial alcohol content very well. They are very pale (straw to gold in color) with moderate bitterness, light body, and high carbonation.',
+    history: 'Commerical examples often use names that reference the devil. Style originated in the mid 20th-century.',
+    relatedstyles: [
+        "Belgian Blond", "Belgian Tripel"
+    ]
+},     {
+    type: 'Saison',
+    image: 'saison.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Light Gold',
+        dark: 'Amber',
+        lightSRM: 5,
+        darkSRM: 14,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 35,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5,
+        higherabv: 7,
+    },
+    flavor: 'Fruity esters and peppery phenolic notes from fermentation occasionally fortified by an eclectic mix of herbs and spices. Further complexity from low to medium hop aroma and flavor. High carbonation and high attenuation contribute to dryness.',
+    history: 'AN artisanal Belgian ale fermented with a distinctive yeast.',
+    relatedstyles: [
+        "Biere de Garde", "Witbier"
+    ]
+},     {
+    type: 'Witbier',
+    image: 'witbier.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 2,
+        darkSRM: 4,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 8,
+        highibu: 20,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.5,
+        higherabv: 5.5,
+    },
+    flavor: 'Spicy wheat ale with refreshing flavors derived both from fermentation and the addition of spices such as coriander and orange peel. Notable for using unmalted wheat for 50% of the recipe.',
+    history: 'A Belgian ale with a long history, Witbier died out in the 1950s, only to be revived in the 1960s by Pierre Celis. Popularity has since grown immensely.',
+    relatedstyles: [
+        "American Wheat Beer", "Gose", "Saison", "Weissbier", "White IPA"
+    ]
+},     {
+    type: 'Best Bitter',
+    image: 'bestbitter.jpg',
+    country: 'English',
+    color: {
+        light: 'Gold',
+        dark: 'amber',
+        lightSRM: 8,
+        darkSRM: 16,
+    },
+    bitter: {
+        type: 'Pronounced',
+        lowibu: 25,
+        highibu: 40,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 3.8,
+        higherabv: 4.6,
+    },
+    flavor: 'A "session" beer, flavorful but brewed for drinkability. Balanced toward bitterness but with apparent malt character. Herbal, earthy hoppiness.',
+    history: 'A member of the British Bitters family, descended from 19th century India Pale Ale.',
+    relatedstyles: [
+        "Ordinary Bitter", "Scottish Heavy", "Strong Bitter", "English IPA"
+    ]
+},     {
     type: '',
     image: '',
     country: '',
     color: {
-        lightercolor: '',
-        darkercolor: '',
-        lighternumber: 0,
-        darkernumber: 0,
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},     {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},     {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},     {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
     },
     bitter: {
         type: '',
