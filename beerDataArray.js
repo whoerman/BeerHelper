@@ -104,7 +104,7 @@ let beerData = [{
     country: '',
     color: {
         lightercolor: 'Light Gold',
-        darkercolor: 'gold',
+        darkercolor: 'Gold',
         lighternumber: 4.5,
         darkernumber: 7,
     },
