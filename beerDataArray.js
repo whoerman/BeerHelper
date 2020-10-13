@@ -1,6 +1,7 @@
 //setting the data for all the restaurants
 let beerData = [{
     type: 'Gueuze',
+    image: 'gueuze.jpg',
     country: 'Belgian',
     color: {
         lightercolor: 'Straw',
@@ -26,6 +27,7 @@ let beerData = [{
     ]
 }, {
     type: 'Fruit Lambic',
+    image: 'fruitlambic.jpg',
     country: 'Belgian',
     color: {
         lightercolor: 'Fruit',
@@ -51,6 +53,7 @@ let beerData = [{
     ]
 },  {
     type: 'Flanders Red',
+    image: 'flandersred.jpg',
     country: 'Belgian',
     color: {
         lightercolor: 'Red',
@@ -76,6 +79,7 @@ let beerData = [{
     ]
 },  {
     type: 'Belgian Dubbel',
+    image: 'belgiandubbel.jpg',
     country: 'Belgian',
     color: {
         lightercolor: 'Light Amber',
@@ -101,6 +105,7 @@ let beerData = [{
     ]
 },   {
     type: 'Belgian Tripel',
+    image: 'belgiantripel.jpg',
     country: '',
     color: {
         lightercolor: 'Light Gold',
@@ -126,6 +131,7 @@ let beerData = [{
     ]
 },    {
     type: '',
+    image: '',
     country: '',
     color: {
         lightercolor: '',
