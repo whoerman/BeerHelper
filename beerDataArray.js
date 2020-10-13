@@ -260,84 +260,109 @@ let beerData = [{
         "Ordinary Bitter", "Scottish Heavy", "Strong Bitter", "English IPA"
     ]
 },     {
-    type: '',
-    image: '',
-    country: '',
+    type: 'English IPA',
+    image: 'englishipa.jpg',
+    country: 'English',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Gold',
+        dark: 'Amber',
+        lightSRM: 6,
+        darkSRM: 14,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Assertive',
+        lowibu: 40,
+        highibu: 60,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5,
+        higherabv: 7.5,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Highly hopped and well-attenuated British ale with herbal and floral hop flavor and high hop bitterness. Hop notes are typically supported by caramel and toasty malt flavors.',
+    history: 'Pale ale brewed in England that became extremely popular in the 1800s as an export beer for the Indian market. Associated with Burton breweries and their high sulfate water.',
     relatedstyles: [
-        "", "", ""
+        "American IPA", "Best Bitter", "English Barleywine", "Ordinary Bitter", "Strong Bitter"
     ]
 },     {
-    type: '',
-    image: '',
-    country: '',
+    type: 'British Brown Ale',
+    image: 'britishbrownale.jpg',
+    country: 'English',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 12,
+        darkSRM: 22,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 30,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.2,
+        higherabv: 5.4,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Nutty, caramel malt flavors provide the key attraction. Moderate levels of bitterness and possible English hop aroma and flavor.',
+    history: 'A moderate strength dark ale, lacking the heavily roasted flavors of porter or stout.',
     relatedstyles: [
-        "", "", ""
+        "American Brown Ale", "Dark Mild", "English PorterS"
     ]
 },     {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Sweet Stout',
+    image: 'sweetstout.jpg',
+    country: 'English',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Dark Brown',
+        dark: 'Black',
+        lightSRM: 30,
+        darkSRM: 40,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 40,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4,
+        higherabv: 6,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Sweet Stout displays lower bitterness than most stouts to emphasize malt flavor and sweetness. A sub-style of Sweet Atout called Milk Stout is further sweetened by adding lactose.',
+    history: 'First marketed in the early 1900s as a nutritious drink for nursing mothers.',
     relatedstyles: [
-        "", "", ""
+        "Irish Stout", "Oatmeal Stout"
     ]
 },     {
+    type: 'Oatmeal Stout',
+    image: 'oatmealstout.jpg',
+    country: 'English',
+    color: {
+        light: 'Brown',
+        dark: 'Black',
+        lightSRM: 22,
+        darkSRM: 40,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 25,
+        highibu: 40,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.2,
+        higherabv: 5.9,
+    },
+    flavor: 'Oatmeal stout displays a balance somewhere between an Irish Stout and a Sweet Stout, but often tends towards sweetness with a full creamy mouthfeel.',
+    history: 'A variation of stout utilizing oatmeal to enhance body and mouthfeel.',
+    relatedstyles: [
+        "Irish Stout", "Sweet Stout"
+},    {
     type: '',
     image: '',
     country: '',
