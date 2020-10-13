@@ -442,56 +442,56 @@ let beerData = [{
         "Czech Premium Pale Lager", "Kolsch", "Munich Helles"
     ]
 },   {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Munich Helles',
+    image: 'munichhelles.jpg',
+    country: 'German',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 3,
+        darkSRM: 5,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 16,
+        highibu: 22,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.7,
+        higherabv: 5.4,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Similar in alcohol and appearance to German Pils but malt balanced so that it shows off the bready flavor of pilsner malt.',
+    history: 'Formulated in the 1890s to compete with Pils-style beers. Today it is the everyday drinking beer of Bavaria.',
     relatedstyles: [
-        "", "", ""
+        "Festbier", "German Pils", "International Pale Lager"
     ]
 },   {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Czech Premium Pale Lager',
+    image: 'czechpremiumpalelager.jpg',
+    country: 'German',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 3.5,
+        darkSRM: 6.5,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 30,
+        highibu: 45,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.2,
+        higherabv: 5.8,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Generally darker and more malty than German Pils, but with similar levels of aroma, flavor, and bittering hops.',
+    history: 'Golden lager from Czech Republic city of Pilsen, first brewed in 1842.',
     relatedstyles: [
-        "", "", ""
+        "German Pils"
     ]
 },   {
     type: '',
