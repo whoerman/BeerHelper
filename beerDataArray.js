@@ -676,6 +676,84 @@ let beerData = [{
         "Altbier", "German Pils"
     ]
 },   {
+    type: 'American Light Lager',
+    image: 'americanlightlager.jpg',
+    country: 'American',
+    color: {
+        light: 'Straw',
+        dark: 'Straw',
+        lightSRM: 2,
+        darkSRM: 3,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 8,
+        highibu: 12,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 8,
+        higherabv: 12,
+    },
+    flavor: 'Light flavor, thin body, and high carbonation combine to create a highly refreshing beer.',
+    history: 'First brewed in the mid-1900s, American Light Lagers achieved widespread popularity through targeted marketing in the 1970s.',
+    relatedstyles: [
+        "American Lager", "Cream Ale", "International Pale Lager"
+    ]
+},   {
+    type: 'American Wheat Beer',
+    image: 'americanwheatbeer.jpg',
+    country: 'American',
+    color: {
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 3,
+        darkSRM: 6,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 15,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4,
+        higherabv: 5.5,
+    },
+    flavor: 'Light malt flovor includes flour and bread notes from wheat. Hop character varies from low to moderate. Does not have the clove-banana fermentation traits of German wheat beers.',
+    history: "American craft brewers' interpretation of German wheat beer",
+    relatedstyles: [
+        "American Blonde Ale", "Weissbier", "Witbier"
+    ]
+},  {
+    type: 'American Blonde Ale',
+    image: 'americanblondeale.jpg',
+    country: 'American',
+    color: {
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 3,
+        darkSRM: 6,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 15,
+        highibu: 28,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 3.8,
+        higherabv: 5.5,
+    },
+    flavor: 'Bread and light biscuit notes from pale malts. Variable level of hop flavor and gentle bitterness.',
+    history: 'Lightly flavored alt-malt beer.',
+    relatedstyles: [
+        "American Wheat Beer"
+    ]
+},  {
     type: '',
     image: '',
     country: '',
@@ -701,7 +779,137 @@ let beerData = [{
     relatedstyles: [
         "", "", ""
     ]
-},   {
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
     type: '',
     image: '',
     country: '',
