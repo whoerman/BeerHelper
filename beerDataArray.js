@@ -780,82 +780,82 @@ let beerData = [{
         "American Amber Ale", "American IPA"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'American Amber Ale',
+    image: 'americanamberale.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light Amber',
+        dark: 'Dark Amber',
+        lightSRM: 10,
+        darkSRM: 17,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 25,
+        highibu: 40,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.5,
+        higherabv: 6.2,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Amber ales have the evident citrus and pine hoppiness of American Pale Ale with a richer malt base that includes dark caramel and toasted flavors. Both malt and hops are medium to high in flavor impact.',
+    history: 'Developed as a variation of American Pale Ale. Sometimes referred to as "Red Ale"',
     relatedstyles: [
-        "", "", ""
+        "American Pale Ale", "California Common"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'American IPA',
+    image: 'americanipa.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
+        light: 'Gold',
+        dark: 'Amber',
         lightSRM: 0,
         darkSRM: 0,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Assertive',
+        lowibu: 40,
+        highibu: 70,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5.5,
+        higherabv: 7.5,
     },
-    flavor: '',
-    history: '',
+    flavor: 'This style is defined by the assertive presence of American hops in aroma, flavor, and bitterness. Resinous, citrus hop traits dominate aroma and flavor.',
+    history: 'The original "pale" ale of England, commonly exported to India and later adopted for domestic consumption. The first American interpretations of IPA were brewed in the 1970s, and the style found widespread popularity beginning in the 1990s.',
     relatedstyles: [
-        "", "", ""
+        "American Pale Ale", "Black IPA", "Double IPA", "English IPA", "White IPA"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Double IPA',
+    image: 'doubleipa.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Gold',
+        dark: 'Amber',
+        lightSRM: 6,
+        darkSRM: 14,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Highly Assertive',
+        lowibu: 60,
+        highibu: 120,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'High',
+        higherdesc: 'High',
+        lowerabv: 7.5,
+        higherabv: 10,
     },
-    flavor: '',
-    history: '',
+    flavor: 'This style is characterized by an extreme expression of American hops in aroma, flavor, and bitterness. Maltiness may be subdued by the use of sugar to lighten the body.',
+    history: 'Born in the mid 1990s from the increasing popularity of hop-forward IPAs.',
     relatedstyles: [
-        "", "", ""
+        "American IPA", "American Barleywine"
     ]
 },  {
     type: '',
