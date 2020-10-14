@@ -495,7 +495,7 @@ let beerData = [{
     ]
 },   {
     type: 'Märzen',
-    image: 'märzen.jpg',
+    image: 'marzen.jpg',
     country: 'German & Czech',
     color: {
         light: 'Gold',
