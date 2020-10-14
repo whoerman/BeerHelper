@@ -236,7 +236,7 @@ let beerData = [{
 },     {
     type: 'Best Bitter',
     image: 'bestbitter.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Gold',
         dark: 'amber',
@@ -262,7 +262,7 @@ let beerData = [{
 },     {
     type: 'English IPA',
     image: 'englishipa.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Gold',
         dark: 'Amber',
@@ -288,7 +288,7 @@ let beerData = [{
 },     {
     type: 'British Brown Ale',
     image: 'britishbrownale.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Amber',
         dark: 'Brown',
@@ -314,7 +314,7 @@ let beerData = [{
 },     {
     type: 'Sweet Stout',
     image: 'sweetstout.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Dark Brown',
         dark: 'Black',
@@ -340,7 +340,7 @@ let beerData = [{
 },     {
     type: 'Oatmeal Stout',
     image: 'oatmealstout.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Brown',
         dark: 'Black',
@@ -366,7 +366,7 @@ let beerData = [{
 },    {
     type: 'Wee Heavy',
     image: 'weeheavy.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Amber',
         dark: 'Brown',
@@ -392,7 +392,7 @@ let beerData = [{
 },   {
     type: 'Irish Stout',
     image: 'irishstout.jpg',
-    country: 'English',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Brown',
         dark: 'Black',
@@ -418,7 +418,7 @@ let beerData = [{
 },   {
     type: 'German Pils',
     image: 'germanpils.jpg',
-    country: 'German',
+    country: 'German & Czech',
     color: {
         light: 'Straw',
         dark: 'Light Gold',
@@ -439,12 +439,12 @@ let beerData = [{
     flavor: 'Floral, perfumy hops dominant aroma and flavor, criso finish from bitterness. Often has some bread-like pale malt flavor.',
     history: 'German interpretation of the orginal pilsner from Bohemia (Czech Premium Pale Lager). This style is generally paler, lighter bodied, and less malty than Czech Premium Pale Lager.',
     relatedstyles: [
-        "Czech Premium Pale Lager", "Kolsch", "Munich Helles"
+        "Czech Premium Pale Lager", "Kölsch", "Munich Helles"
     ]
 },   {
     type: 'Munich Helles',
     image: 'munichhelles.jpg',
-    country: 'German',
+    country: 'German & Czech',
     color: {
         light: 'Straw',
         dark: 'Light Gold',
@@ -470,7 +470,7 @@ let beerData = [{
 },   {
     type: 'Czech Premium Pale Lager',
     image: 'czechpremiumpalelager.jpg',
-    country: 'German',
+    country: 'German & Czech',
     color: {
         light: 'Straw',
         dark: 'Gold',
@@ -494,9 +494,9 @@ let beerData = [{
         "German Pils"
     ]
 },   {
-    type: 'Marzen',
-    image: 'marzen.jpg',
-    country: 'German',
+    type: 'Märzen',
+    image: 'märzen.jpg',
+    country: 'German & Czech',
     color: {
         light: 'Gold',
         dark: 'Dark Amber',
@@ -515,14 +515,14 @@ let beerData = [{
         higherabv: 6.3,
     },
     flavor: 'A malt-balanced beer with about 0.5 to 1.0% more alcohol than German Pils or Munich Helles. Most examples show malt flavors of bread, toast, and bread crusts.',
-    history: 'Marzen (March) beers were once brewed strong for long summer storage. In 1810 Marzen was used to celebrate the royal wedding that has become the modern-day Oktoberfest.',
+    history: 'Märzen (March) beers were once brewed strong for long summer storage. In 1810 Märzen was used to celebrate the royal wedding that has become the modern-day Oktoberfest.',
     relatedstyles: [
         "Festbier", "Munich Dunkel", "Rauchbier", "Vienna Lager"
     ]
 },   {
     type: 'Helles Bock',
     image: 'hellesbock.jpg',
-    country: 'German',
+    country: 'German & Czech',
     color: {
         light: 'Gold',
         dark: 'Light Amber',
@@ -548,7 +548,7 @@ let beerData = [{
 },   {
     type: 'Doppelbock',
     image: 'doppelbock.jpg',
-    country: 'German',
+    country: 'German & Czech',
     color: {
         light: 'Gold',
         dark: 'Brown',
@@ -574,7 +574,7 @@ let beerData = [{
 },   {
     type: 'Weissbier',
     image: 'weissbier.jpg',
-    country: 'German',
+    country: 'German & Czech',
     color: {
         light: 'Straw',
         dark: 'Gold',
@@ -598,82 +598,82 @@ let beerData = [{
         "American Wheat Beer", "Dunkles Weisbier", "Weizenbock", "Witbier"
     ]
 },   {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Berliner Weisse',
+    image: 'berlinerweisse.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Straw',
+        lightSRM: 2,
+        darkSRM: 3,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Low',
+        lowibu: 3,
+        highibu: 8,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 2.8,
+        higherabv: 3.8,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Low-alcohol german wheat beer with assertive lactic acidity and no hop flavor, aroma, or bitterness. High carbonation and tartness contribute to highly refreshing character.',
+    history: 'Historically brewed primarily in and around Berlin, today it is more commonly produced in American craft breweries.',
     relatedstyles: [
-        "", "", ""
+        "Gose"
     ]
 },   {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Gose',
+    image: 'gose.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 3,
+        darkSRM: 4,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Low',
+        lowibu: 5,
+        highibu: 12,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.2,
+        higherabv: 4.8,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Highly carbonated German wheat beer brewed with salt and coriander and fermented with lactic acid bacteria. Beer should be tart and refreshing and should not taste overly salty.',
+    history: 'Specialty style brewed historically in Leipzig. Revived in Germany in the late 20th century and now most commonly produced by American craft breweries.',
     relatedstyles: [
-        "", "", ""
+        "Berliner Weisse", "Witbier"
     ]
 },   {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Kölsch',
+    image: 'kolsch.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 3.5,
+        darkSRM: 5.5,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 18,
+        highibu: 30,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.4,
+        higherabv: 5.2,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Often described as the ale version of a Pilsner, with subtle fruitiness, delicate malt flavor, and moderate bitterness. High attenuation gives the beer a crisp, refreshing adge.',
+    history: 'Brewed in Cologne, Germany using ale yeast at cooler temperatures.',
     relatedstyles: [
-        "", "", ""
+        "Altbier", "German Pils"
     ]
 },   {
     type: '',
