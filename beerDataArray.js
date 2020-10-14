@@ -754,30 +754,30 @@ let beerData = [{
         "American Wheat Beer"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'American Pale Ale',
+    image: 'americanpaleale.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light Gold',
+        dark: 'Light Amber',
+        lightSRM: 5,
+        darkSRM: 10,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 30,
+        highibu: 50,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.5,
+        higherabv: 6.2,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Citrus and pine flavors of American hop varieties are evident - and usually dominant - in aroma and flavor. Low to medium malt base with some caramel and toast notes.',
+    history: 'A classic beer of the American craft beer movement.',
     relatedstyles: [
-        "", "", ""
+        "American Amber Ale", "American IPA"
     ]
 },  {
     type: '',
