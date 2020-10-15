@@ -884,6 +884,240 @@ let beerData = [{
         "British Brown Ale"
     ]
 },  {
+    type: 'American Porter',
+    image: 'americanporter.jpg',
+    country: 'American',
+    color: {
+        light: 'Brown',
+        dark: 'Black',
+        lightSRM: 22,
+        darkSRM: 40,
+    },
+    bitter: {
+        type: 'Pronounced',
+        lowibu: 25,
+        highibu: 50,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 4.8,
+        higherabv: 6.5,
+    },
+    flavor: 'Displays dark malt flavors like chocolate and roast without intense acrid or burnt flavors of stout. Hopping vaires widely.',
+    history: 'Porter hostory extends back to the early 1700s, but this more modern version includes black patent malt, which dates form about 1817. Porters made without this are known as English Porter.',
+    relatedstyles: [
+        "American Stout", "Baltic Porter", "English Porter", "Foreign Extra Stout"
+    ]
+},  {
+    type: 'American Stout',
+    image: 'americanstout.jpg',
+    country: 'American',
+    color: {
+        light: 'Dark Brown',
+        dark: 'Black',
+        lightSRM: 30,
+        darkSRM: 40,
+    },
+    bitter: {
+        type: 'Assertive',
+        lowibu: 35,
+        highibu: 75,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5,
+        higherabv: 7,
+    },
+    flavor: 'The roasty, coffee flavors of stout form the malt base of this beer, supported by moderate citrus and resinous American hops in flavor, aroma, and bitterness.',
+    history: 'And American variation of Foreign Extra Stout.',
+    relatedstyles: [
+        "American Porter", "Black IPA", "Foreign Extra Stout", "Imperial Stout"
+    ]
+},  {
+    type: 'Imperial Stout',
+    image: 'imperialstout.jpg',
+    country: 'American',
+    color: {
+        light: 'Dark Brown',
+        dark: 'Black',
+        lightSRM: 30,
+        darkSRM: 40,
+    },
+    bitter: {
+        type: 'Pronounced',
+        lowibu: 50,
+        highibu: 90,
+    },
+    alcohol: {
+        lowerdesc: 'Hign',
+        higherdesc: 'Very High',
+        lowerabv: 8,
+        higherabv: 12,
+    },
+    flavor: 'Intense roasted flavors of chocolate and coffee with medium to high hop bitterness. Dark and dried fruit notes are common. The additional alcohol may impart a warming quality to the mouthfeel.',
+    history: 'Originally born from the British porter tradition, this hogh alcohol dark ale was very popular with the Russian Imperial Court in the early 1800s. Today, Imperial Stout is most commonly produced by American craft breweries.',
+    relatedstyles: [
+        "American Stout", "Baltic Porter", "Foreign extra Stout", "Irish Stout"
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
     type: '',
     image: '',
     country: '',
