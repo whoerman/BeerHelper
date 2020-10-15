@@ -281,7 +281,7 @@ let beerData = [{
         higherabv: 7.5,
     },
     flavor: 'Highly hopped and well-attenuated British ale with herbal and floral hop flavor and high hop bitterness. Hop notes are typically supported by caramel and toasty malt flavors.',
-    history: 'Pale ale brewed in England that became extremely popular in the 1800s as an export beer for the Indian market. Associated with Burton breweries and their high sulfate water.',
+    history: 'Pale ale brewed in English, Scottish & Irish that became extremely popular in the 1800s as an export beer for the Indian market. Associated with Burton breweries and their high sulfate water.',
     relatedstyles: [
         "American IPA", "Best Bitter", "English Barleywine", "Ordinary Bitter", "Strong Bitter"
     ]
@@ -827,7 +827,7 @@ let beerData = [{
         higherabv: 7.5,
     },
     flavor: 'This style is defined by the assertive presence of American hops in aroma, flavor, and bitterness. Resinous, citrus hop traits dominate aroma and flavor.',
-    history: 'The original "pale" ale of England, commonly exported to India and later adopted for domestic consumption. The first American interpretations of IPA were brewed in the 1970s, and the style found widespread popularity beginning in the 1990s.',
+    history: 'The original "pale" ale of English, Scottish & Irish, commonly exported to India and later adopted for domestic consumption. The first American interpretations of IPA were brewed in the 1970s, and the style found widespread popularity beginning in the 1990s.',
     relatedstyles: [
         "American Pale Ale", "Black IPA", "Double IPA", "English IPA", "White IPA"
     ]
@@ -1172,7 +1172,7 @@ let beerData = [{
 },  {
     type: 'Ordinary Bitter',
     image: 'ordinarybitter.jpg',
-    country: 'England',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Gold',
         dark: 'Amber',
@@ -1198,7 +1198,7 @@ let beerData = [{
 },  {
     type: 'Strong Bitter',
     image: 'strongbitter.jpg',
-    country: 'England',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Gold',
         dark: 'Dark Amber',
@@ -1224,7 +1224,7 @@ let beerData = [{
 },  {
     type: 'Dark Mild',
     image: 'darkmild.jpg',
-    country: 'England',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Amber',
         dark: 'Brown',
@@ -1250,7 +1250,7 @@ let beerData = [{
 },  {
     type: 'English Porter',
     image: 'englishporter.jpg',
-    country: 'England',
+    country: 'English, Scottish & Irish',
     color: {
         light: 'Light',
         dark: 'Dark Brown',
@@ -1272,6 +1272,474 @@ let beerData = [{
     history: 'Modern English Porter is the present-day descendant of the original, pre-roating drum porters, and is sometimes refered to as Brown Porter.',
     relatedstyles: [
         "American Porter", "British Brown Ale", "Dark Mild"
+    ]
+},  {
+    type: 'Foreign Extra Stout',
+    image: 'foreignextrastout.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'dark Brown',
+        dark: 'Black',
+        lightSRM: 30,
+        darkSRM: 40,
+    },
+    bitter: {
+        type: 'Assertive',
+        lowibu: 50,
+        highibu: 70,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 6.3,
+        higherabv: 8,
+    },
+    flavor: 'In terms of alcoholic strength, Foriegn Extra Stout falls between Irish Stout and Imperial Stout. The flavor is dominated by notes of roasted grain, chocolate, and coffee.',
+    history: 'Also sometimes known as "double stout", "export stout", or simply "foreign stout".',
+    relatedstyles: [
+        "Irish Stout", "American Porter", "American Stout", "Imperial Stout"
+    ]
+},  {
+    type: 'Old Ale',
+    image: 'oldale.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'Light Amber',
+        dark: 'Brown',
+        lightSRM: 10,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Pronounced',
+        lowibu: 30,
+        highibu: 60,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'High',
+        lowerabv: 5.5,
+        higherabv: 9,
+    },
+    flavor: 'Sweet with malt flavors of caramel, toffe, treacle, or molasses, as well as frutiy esters. Oxidation flavors such as sherry or port may exist, as well as other flavors from lactic acid bacteria and Brettanomyces.',
+    history: 'Traditionally aged at the brewery as a stock ale, much like early vatted porters. Today Old Ale is commonly a blend of fresh and stock ales.',
+    relatedstyles: [
+        "English Barleywine"
+    ]
+},  {
+    type: 'English Barleywine',
+    image: 'englishbarleywine.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'Gold',
+        dark: 'brown',
+        lightSRM: 8,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 35,
+        highibu: 70,
+    },
+    alcohol: {
+        lowerdesc: 'High',
+        higherdesc: 'Very High',
+        lowerabv: 8,
+        higherabv: 12,
+    },
+    flavor: 'Intense flaovors of biscuit, toast, caramel, and molasses, and sometimes dark or dried fruit. Earthy or herbal English hop flavor and aroma may be present.',
+    history: 'Barleywine sits atop the "ladder" of English plae ales, following a similar formulation to English IPA and bitter, but increased ABV and flavor intensity.',
+    relatedstyles: [
+        "American Barleywine", "English IPA", "Old Ale"
+    ]
+},  {
+    type: 'Scottish Light',
+    image: 'scottishlight.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'Dark Amber',
+        dark: 'Brown',
+        lightSRM: 17,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 10,
+        highibu: 20,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 2.5,
+        higherabv: 3.2,
+    },
+    flavor: 'The lowest ABV of the Scottish ales, this beer features nutty, toasty, and caramel malt flavors and low bitterness.',
+    history: 'Sometimes referred to as 60 Schilling (60/-).',
+    relatedstyles: [
+        "Ordinary Bitter", "Scottish Export", "Scottish Heavy", "Wee Heavy"
+    ]
+},  {
+    type: 'Scottish Heavy',
+    image: 'scottishheavy.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 13,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 10,
+        highibu: 20,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 3.2,
+        higherabv: 3.9,
+    },
+    flavor: 'Low bitterness and few fruity esters allow toasty, nutty, and caramel malt flavors to shine.',
+    history: 'Sometimes referred to as 70 Shilling (70/-).',
+    relatedstyles: [
+        "Best Bitter", "Scottish Export", "Scottish Light", "Wee heavy"
+    ]
+},  {
+    type: 'Scottish Export',
+    image: 'scottishexport.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 13,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 15,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 3.9,
+        higherabv: 6,
+    },
+    flavor: 'As with its lower-ABV counterparts, Scottish Export tends to balance toward nutty, caramel malt flavors.',
+    history: 'The strongest of the three scottish ales, sometimes referred to as 80 Shilling (80/-).',
+    relatedstyles: [
+        "Scottish Heavy", "Scottish Light", "Strong Bitter", "Wee Heavy"
+    ]
+},  {
+    type: 'Irish Red Ale',
+    image: 'irishredale.jpg',
+    country: 'English, Scottish & Irish',
+    color: {
+        light: 'Light Amber',
+        dark: 'Amber',
+        lightSRM: 9,
+        darkSRM: 14,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 18,
+        highibu: 28,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 3.8,
+        higherabv: 5,
+    },
+    flavor: 'Malt balanced with moderate flavors of caramel, toast, or toffee, and little to no hop aroma or flavor.',
+    history: 'Irish Red Ale typically gets its red color from the addition of a small amount of roasted barley.',
+    relatedstyles: [
+        "Scottish Export", "Strong Bitter"
+    ]
+},  {
+    type: 'Vienna Lager',
+    image: 'viennalager.jpg',
+    country: 'German & Czech',
+    color: {
+        light: 'Light Amber',
+        dark: 'Amber',
+        lightSRM: 9,
+        darkSRM: 15,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 18,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.7,
+        higherabv: 5.5,
+    },
+    flavor: 'Bread, biscuit, and toasty malt flavors dominate the flavor profile. Finishes fairly dry with moderate bitterness.',
+    history: 'A close relative of Märzen, this beer is typically made with 100% Vienna malt rather than Munich malt.',
+    relatedstyles: [
+        "Märzen"
+    ]
+},  {
+    type: 'Festbier',
+    image: 'festbier.jpg',
+    country: 'German & Czech',
+    color: {
+        light: 'Light Gold',
+        dark: 'Gold',
+        lightSRM: 4,
+        darkSRM: 7,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 18,
+        highibu: 25,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5.8,
+        higherabv: 6.3,
+    },
+    flavor: 'Malt balanced with white bread and water cracker flavors and light sweetness. Low to moderate bitterness with low noble hop aroma and flavor.',
+    history: "The beer associated with Munich's Oktoberfest celebration. Once identical to Märzen, this beer has become paler in recent years to appeal to consumer tastes.",
+    relatedstyles: [
+        "Märzen", "Munich Helles"
+    ]
+},  {
+    type: 'Munich Dunkel',
+    image: 'munichdunkel.jpg',
+    country: 'German & Czech',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 14,
+        darkSRM: 28,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 18,
+        highibu: 28,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.5,
+        higherabv: 5.6,
+    },
+    flavor: 'Malt dominated, with flavors of toast and biscuit, sometimes enhanced by a touch of caramel, chocolate, or nutty flavor. Little or no hop aroma or flavor, but modest hop bitterness keeps the beer from being sweet.',
+    history: 'This dark lager was the everyday drinking beer of Bavaria until being overtaken by Munich Helles in the 20th century.',
+    relatedstyles: [
+        "Dunkles Bock", "Märzen"
+    ]
+},  {
+    type: 'Schwarzbier',
+    image: 'schwarzbier.jpg',
+    country: 'German & Czech',
+    color: {
+        light: 'Dark Amber',
+        dark: 'Dark Brown',
+        lightSRM: 17,
+        darkSRM: 30,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'normal',
+        lowerabv: 4.4,
+        higherabv: 5.4,
+    },
+    flavor: 'Toasty malt flavors with restrained roasted and chocolate notes. Moderate levels of bitterness and dry finish.',
+    history: 'Meaning "black beer" in German, this style initially evolved as a darker variant of Munich Dunkel.',
+    relatedstyles: [
+        "Munich Dunkel"
+    ]
+},  {
+    type: 'Rauchbier',
+    image: 'rauchbier.jpg',
+    country: 'German & Czech',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 12,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.8,
+        higherabv: 6,
+    },
+    flavor: 'Strong smoky flavors of bacon, brisket, and campfire. Additional malt flavors tend to be toasty and biscuit like.',
+    history: 'A specialty of Bamberg, this beer features intense smoky flavors from beechwood-smoked malt.',
+    relatedstyles: [
+        "Märzen"
+    ]
+},  {
+    type: 'Dunkles Bock',
+    image: 'dunklesbock.jpg',
+    country: 'German & Czech',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 14,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 20,
+        highibu: 27,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'Elevated',
+        lowerabv: 6.3,
+        higherabv: 7.2,
+    },
+    flavor: 'Toast, bread crust, and nutty malt flavors, with just enough hop bitterness to prevent the beer from becoming overly sweet.',
+    history: 'Although "bock" translates directly to "goat", this style name comes from a corruption of Einbeck, the town in which the style originated.',
+    relatedstyles: [
+        "Doppelbock", "Helles Bock"
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
     ]
 },  {
     type: '',
