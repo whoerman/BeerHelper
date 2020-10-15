@@ -1040,6 +1040,214 @@ let beerData = [{
         "American Lager", "American Light Lager", "Munich Helles"
     ]
 },  {
+    type: 'Lambic',
+    image: 'lambic.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 3,
+        darkSRM: 7,
+    },
+    bitter: {
+        type: 'Very Low',
+        lowibu: 0,
+        highibu: 10,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5,
+        higherabv: 6.5,
+    },
+    flavor: 'Noticeable lactic acidity and sourness, often coupled with barnyard or horse blanket traits.',
+    history: 'Spontaneously fermented ale from the Senne River valley region, served uncarbonated and rarely found outside of Belgium.',
+    relatedstyles: [
+        "Fruit Lambic", "Gueuze"
+    ]
+},  {
+    type: 'Oud Bruin',
+    image: 'oudbruin.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 15,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 20,
+        highibu: 25,
+    },
+    alcohol: {
+        lowerdesc: 'Lower',
+        higherdesc: 'High',
+        lowerabv: 4,
+        higherabv: 8,
+    },
+    flavor: 'Malt flavors of caramel, toffee, and chocolate are common, along with dark or dried fruit flavors and gentle acidity.',
+    history: 'Asociated with East Flanders, Oud Bruin is typically soured in stainless steel, rather than wood.',
+    relatedstyles: [
+        "Flander's Red Ale"
+    ]
+},  {
+    type: 'Belgian Dark Strong Ale',
+    image: 'belgiandarkstrongale.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 12,
+        darkSRM: 22,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 20,
+        highibu: 35,
+    },
+    alcohol: {
+        lowerdesc: 'High',
+        higherdesc: 'Very High',
+        lowerabv: 8,
+        higherabv: 12,
+    },
+    flavor: 'Alcohol generally well hidden by a blend of dark and dried fruit notes. Spicy yeast notes. Often percieved as a more intense version of Dubbel.',
+    history: 'A bit of a catch-all category for strong, dark Belgian beers, this is where so-called "quadrupel" beers are calssified.',
+    relatedstyles: [
+        "Belgian Dubbel"
+    ]
+},  {
+    type: 'Belgian Pale Ale',
+    image: 'belgianpaleale.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Gold',
+        dark: 'Amber',
+        lightSRM: 8,
+        darkSRM: 14,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 30,
+    },
+    alcohol: {
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.8,
+        higherabv: 5.5,
+    },
+    flavor: 'Gold to amber in color with medium bitterness. This Belgian variant shows fruity and spicy fermentation flavors not seen in British-style pale ales.',
+    history: 'Modern interpretations of the style show British influences and date back to the mid-1900s.',
+    relatedstyles: [
+        "Strong Bitter"
+    ]
+},  {
+    type: 'Biere de Garde',
+    image: 'bieredegarde.jpg',
+    country: 'Belgian',
+    color: {
+        light: 'Gold',
+        dark: 'Light Brown',
+        lightSRM: 6,
+        darkSRM: 19,
+    },
+    bitter: {
+        type: 'Low',
+        lowibu: 18,
+        highibu: 28,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 6,
+        higherabv: 8.5,
+    },
+    flavor: 'Malt driven with malt flavor determined by color, which ranges from blonde to brown. Well attenuated.',
+    history: "Traditionally produced in France near it's border with Belgium. Classic producers often make blonde, amber, and brown variations.",
+    relatedstyles: [
+        "Siason"
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
+    type: '',
+    image: '',
+    country: '',
+    color: {
+        light: '',
+        dark: '',
+        lightSRM: 0,
+        darkSRM: 0,
+    },
+    bitter: {
+        type: '',
+        lowibu: 0,
+        highibu: 0,
+    },
+    alcohol: {
+        lowerdesc: '',
+        higherdesc: '',
+        lowerabv: 0,
+        higherabv: 0,
+    },
+    flavor: '',
+    history: '',
+    relatedstyles: [
+        "", "", ""
+    ]
+},  {
     type: '',
     image: '',
     country: '',
