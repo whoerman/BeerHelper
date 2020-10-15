@@ -1,4 +1,4 @@
-//setting the data for all the restaurants
+//setting the data for all the beer types
 let beerData = [{
     type: 'Gueuze',
     image: 'gueuze.jpg',
