@@ -1690,108 +1690,108 @@ let beerData = [{
         "Dunkles Weissbier", "Weissbier"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Altbier',
+    image: 'altbier.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light Amber',
+        dark: 'Dark Amber',
+        lightSRM: 11,
+        darkSRM: 17,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronouncd',
+        lowibu: 25,
+        highibu: 50,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.3,
+        higherabv: 5.5,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Toasty, nutty, and bread crust malt flavors tempered by assertive hop bitterness and a dry finish.',
+    history: 'Meaning "old", these beers are brewed in the "old way", using ale yeast, but cool fermentation temperatures and lagering give a flavor profile with low levels of fruity esters.',
     relatedstyles: [
-        "", "", ""
+        "Kölsch "
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'American Lager',
+    image: 'americanlager.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 2,
+        darkSRM: 4,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Low',
+        lowibu: 8,
+        highibu: 18,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.2,
+        higherabv: 5.3,
     },
-    flavor: '',
-    history: '',
+    flavor: 'A lightly flavored lager with low levels of grain or corn sweetness and above-average carbonation.',
+    history: '19th century American brewers added corn or rice to beer recipes to improve clarity.',
     relatedstyles: [
-        "", "", ""
+        "American Light Lager", "Cream Ale"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Black IPA',
+    image: 'blackipa.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Brown',
+        dark: 'Black',
+        lightSRM: 25,
+        darkSRM: 40,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Highly Assertive',
+        lowibu: 50,
+        highibu: 90,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'High',
+        lowerabv: 5.5,
+        higherabv: 9,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Defined by assertive presence of American hop varieties along with some roasty - but not burnt - malt flavors.',
+    history: 'Variant of American IPA. Some examples are labeled as Cascadian Dark Ale in the Pacific Northwest US.',
     relatedstyles: [
-        "", "", ""
+        "American IPA", "American Stout"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'White IPA',
+    image: 'whiteipa.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light Gold',
+        dark: 'Gold',
+        lightSRM: 5,
+        darkSRM: 8,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Assertive',
+        lowibu: 40,
+        highibu: 70,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 5.5,
+        higherabv: 7,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Citrus or tropical fruit hop flavors blend with yeast derived esters and potential coriander spice. Finishes dry with assertive bitterness.',
+    history: 'Developed as a hybrid of American IPA and Belgian Witbier.',
     relatedstyles: [
-        "", "", ""
+        "American IPA", "Witbier"
     ]
 },  {
     type: '',
