@@ -12,7 +12,7 @@ let glassTypeData = [
         description: 'Liter-sized glass associated with beer gardens and Oktoberfest. Can be used for any lager less than 6% ABV.',
     },{
         type: 'Weizen Vase',
-        image: 'dunlesweissbier.jpg',
+        image: 'dunklesweissbier.jpg',
         country: 'German',
         description: 'Accomodates half liter of beer plus sizeable head. Curvier versions seen.',
     },{

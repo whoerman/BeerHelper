@@ -17,6 +17,21 @@
         document.getElementById("contentdiv").innerHTML += fullBeerCard;
     }
 
+        ///formatting the full glass type card
+        function makeFullGlassTypeCard() {
+            fullGlassTypeCard =
+                '<div class="card border-secondary text-center"> \
+            <div class="card-body"> \
+                <h4 class="text-center m-0">' + (i + 1) + '.   <i class="fas fa-Beer"></i> ' + glassTypeData[i].type + ' </h4>\
+                <img class="card-img-top" src="./assets/images/beerpics/' + glassTypeData[i].image + '" alt="' + beerData[i].type + ' picture"> \
+                <p class="text-center m-0"><em>' + glassTypeData[i].country + '</em></p>\
+                <p class="card-title"><em>' + glassTypeData[i].description + '</em></p>\
+            </div> \
+        </div>';
+            document.getElementById("contentdiv").innerHTML += fullGlassTypeCard;
+        }
+    
+
     function listAll() {
         for (i = 0; i < beerData.length; i++) {
             makeFullBeerCard();
@@ -25,3 +40,12 @@
     }
 
     listAll();
+
+    function listGlassAll() {
+        for (i = 0; i < glassTypeData.length; i++) {
+            makeFullGlassTypeCard();
+            console.log(glassTypeData[i].type)
+        }
+    }
+
+    listGlassAll();
