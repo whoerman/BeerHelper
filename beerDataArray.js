@@ -1794,55 +1794,55 @@ let beerData = [{
         "American IPA", "Witbier"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Cream Ale',
+    image: 'creamale.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Light Gold',
+        lightSRM: 2.5,
+        darkSRM: 5,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 8,
+        highibu: 20,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.2,
+        higherabv: 5.6,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Although similar in appearance and alcohol to American Lager, this style usually has a distinct corn-like malt character and low but apparent bitterness.',
+    history: 'Though referred to as an ale, this style is sometimes brewed witha lager yeast strain. Commonly produced by ale brewers to compete with the popularity of American lagers.',
     relatedstyles: [
-        "", "", ""
+        "American Lager", "American Light Lager"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Baltic Porter',
+    image: 'balticporter.jpg',
+    country: 'Other',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Dark Amber',
+        dark: 'Dark Brown',
+        lightSRM: 17,
+        darkSRM: 30,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 40,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 6.5,
+        higherabv: 9.5,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Low roast character is supported by toasty, caramel, and sometime licorice notes. Some dark fruit aroma is possible.',
+    history: 'A higher ABV variation of porter that gained popularity in the Baltic countries. Often brewed with lager yeast, but ale versions are sometimes seen.',
     relatedstyles: [
-        "", "", ""
+        "American Porter", "Imperial Stout", "Schwarzbier"
     ]
 }, ];
