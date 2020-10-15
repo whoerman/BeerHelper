@@ -1014,30 +1014,30 @@ let beerData = [{
         "American Amber Ale"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'International Pale Lager',
+    image: 'internationalpalelager.jpg',
+    country: 'Other',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Straw',
+        dark: 'Gold',
+        lightSRM: 2,
+        darkSRM: 6,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 18,
+        highibu: 25,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.6,
+        higherabv: 6,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Lightly flavored with low hop bitterness and water cracker or white bread malt flavor. Typically highly carbonated with a crisp, light body.',
+    history: 'Similar to American Lagers, though often brewed with a lower portion of adjuncts, and may be all malt.',
     relatedstyles: [
-        "", "", ""
+        "American Lager", "American Light Lager", "Munich Helles"
     ]
 },  {
     type: '',
