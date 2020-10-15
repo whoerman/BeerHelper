@@ -1170,108 +1170,108 @@ let beerData = [{
         "Siason"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Ordinary Bitter',
+    image: 'ordinarybitter.jpg',
+    country: 'England',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Gold',
+        dark: 'Amber',
+        lightSRM: 8,
+        darkSRM: 14,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 25,
+        highibu: 35,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 3.2,
+        higherabv: 3.8,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Similar to Best Bitter but lower in alcohol and lighter in both malt and hop flavors.',
+    history: 'The lowest alcohol member of the bitter family. Made for drinking in volume and often the best selling beer in Bristish pubs.',
     relatedstyles: [
-        "", "", ""
+        "Best Bitter", "English IPA", "Strong Bitter"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Strong Bitter',
+    image: 'strongbitter.jpg',
+    country: 'England',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Gold',
+        dark: 'Dark Amber',
+        lightSRM: 8,
+        darkSRM: 18,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 30,
+        highibu: 50,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Elevated',
+        lowerabv: 4.6,
+        higherabv: 6.2,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Malt flavors of caramel, biscuit, and toast are balanced by herbal, eathy hop flavor and firm hop bitterness.',
+    history: 'The strongest of the three bitter ale styles.',
     relatedstyles: [
-        "", "", ""
+        "Belgian Pale Ale", "Best Bitter", "English IPA", "Ordinary Bitter"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Dark Mild',
+    image: 'darkmild.jpg',
+    country: 'England',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 12,
+        darkSRM: 25,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 10,
+        highibu: 25,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Lower',
+        lowerabv: 3.0,
+        higherabv: 3.8,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Dark Milds sometimes have a tannin-like dryness and include toasty, caramelly, chocolatey, and even slightly roasted malt flavors. Minimal hopping means that Dark Mild is generally malt balanced.',
+    history: 'Historically, Mild was a general name for fresh, unaged beer. Today, the name refers to a lower alcohol dark style ale.',
     relatedstyles: [
-        "", "", ""
+        "British Brownn Ale", "English Porter"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'English Porter',
+    image: 'englishporter.jpg',
+    country: 'England',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light',
+        dark: 'Dark Brown',
+        lightSRM: 20,
+        darkSRM: 30,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 18,
+        highibu: 35,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Lower',
+        higherdesc: 'Normal',
+        lowerabv: 4.0,
+        higherabv: 5.4,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Made with black malt, English Porter is toasty and nutty with some caramel notes, little to no hop flavor, and a balance ranging from slightly malty to slightly bitter. There may also be mild to moderate notes of roastiness.',
+    history: 'Modern English Porter is the present-day descendant of the original, pre-roating drum porters, and is sometimes refered to as Brown Porter.',
     relatedstyles: [
-        "", "", ""
+        "American Porter", "British Brown Ale", "Dark Mild"
     ]
 },  {
     type: '',
