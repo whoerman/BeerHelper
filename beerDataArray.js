@@ -962,30 +962,30 @@ let beerData = [{
         "American Stout", "Baltic Porter", "Foreign extra Stout", "Irish Stout"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'American Barleywine',
+    image: 'americanbarleywine.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light Amber',
+        dark: 'Light Brown',
+        lightSRM: 10,
+        darkSRM: 19,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 50,
+        highibu: 100,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'High',
+        higherdesc: 'Very High',
+        lowerabv: 8,
+        higherabv: 12,
     },
-    flavor: '',
-    history: '',
+    flavor: 'American Barleywines typically show high levels of American hop aroma, flavor, and bitterness as well as rich caramel and coffee malt flavors in a robust, high-alcohol ale.',
+    history: 'Inspired by English Barleywine, though brewed with American ingredients and a substantially higher hopping rate.',
     relatedstyles: [
-        "", "", ""
+        "Double IPA", "English Barleywine"
     ]
 },  {
     type: '',
