@@ -988,30 +988,30 @@ let beerData = [{
         "Double IPA", "English Barleywine"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'California Common',
+    image: 'californiacommon.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Light Amber',
+        dark: 'Amber',
+        lightSRM: 10,
+        darkSRM: 14,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Pronounced',
+        lowibu: 30,
+        highibu: 45,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.5,
+        higherabv: 5.5,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Malty amber beer made with lager yeast fermented at warmer temperatures. Woody or minty hop flavor with firm bitterness for clean finish.',
+    history: 'This most flavorful of indigenous American beer styles originated as "steam beer" in the late 1800s.',
     relatedstyles: [
-        "", "", ""
+        "American Amber Ale"
     ]
 },  {
     type: '',
