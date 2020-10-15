@@ -858,30 +858,30 @@ let beerData = [{
         "American IPA", "American Barleywine"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'American Brown Ale',
+    image: 'americanbrownale.jpg',
+    country: 'American',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Dark Amber',
+        dark: 'Black',
+        lightSRM: 18,
+        darkSRM: 35,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 30,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Noraml',
+        lowerabv: 4.3,
+        higherabv: 6.2,
     },
-    flavor: '',
-    history: '',
+    flavor: 'A malt-dominated style with rich toasty, caramel, and chocolate flavors complemented by low to medium levels of American hops and medium bitterness.',
+    history: 'A classic beer of the American craft beer movement, loosely based on British Brown Ale but with higher hopping rate.',
     relatedstyles: [
-        "", "", ""
+        "British Brown Ale"
     ]
 },  {
     type: '',
