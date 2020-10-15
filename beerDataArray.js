@@ -1612,82 +1612,82 @@ let beerData = [{
         "Doppelbock", "Helles Bock"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Eisbock',
+    image: 'eisbock.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Dark Amber',
+        dark: 'Dark Brown',
+        lightSRM: 18,
+        darkSRM: 30,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Low',
+        lowibu: 25,
+        highibu: 35,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'High',
+        higherdesc: 'Very High',
+        lowerabv: 9,
+        higherabv: 14,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Rich, toasty, and caramel malt flvors with significant alcohol warmth and very full body. Often displays substantial dark fruit flavors.',
+    history: 'Made by freezing Doppelbock and removing the water content, thus concentrating the alcohol content and creating this very strong, rich beer.',
     relatedstyles: [
-        "", "", ""
+        "Dopplebock"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Dunkles Weissbier',
+    image: 'dunklesweissbier.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Amber',
+        dark: 'Brown',
+        lightSRM: 14,
+        darkSRM: 25,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Low',
+        lowibu: 10,
+        highibu: 18,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Normal',
+        higherdesc: 'Normal',
+        lowerabv: 4.3,
+        higherabv: 5.6,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Banana and clove fermentation profile balanced by toast and caramel flavors from the use of Munich and Vienna-type malts.',
+    history: 'A dark variation of Weissbier, German versions of this style must still include at least 50% wheat malt.',
     relatedstyles: [
-        "", "", ""
+        "Weissbier", "Weizenbock"
     ]
 },  {
-    type: '',
-    image: '',
-    country: '',
+    type: 'Weizenbock',
+    image: 'weizenbock.jpg',
+    country: 'German & Czech',
     color: {
-        light: '',
-        dark: '',
-        lightSRM: 0,
-        darkSRM: 0,
+        light: 'Gold',
+        dark: 'Brown',
+        lightSRM: 6,
+        darkSRM: 25,
     },
     bitter: {
-        type: '',
-        lowibu: 0,
-        highibu: 0,
+        type: 'Low',
+        lowibu: 15,
+        highibu: 30,
     },
     alcohol: {
-        lowerdesc: '',
-        higherdesc: '',
-        lowerabv: 0,
-        higherabv: 0,
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 6.5,
+        higherabv: 9,
     },
-    flavor: '',
-    history: '',
+    flavor: 'Intense banana and clove flavors are typical, with malt flavors ranging from bready to nutty to toasty, depending on the color.',
+    history: 'In Germany, this style must conform to two regulations: the grain bill must contain at least 50% wheat malt and the original gravity must be at least 16° P.',
     relatedstyles: [
-        "", "", ""
+        "Dunkles Weissbier", "Weissbier"
     ]
 },  {
     type: '',
