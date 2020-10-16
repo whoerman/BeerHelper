@@ -31,3 +31,9 @@ body {
     height: 15rem;
     object-fit: cover;
 }
+
+.card-img-sidebar {
+    width: auto;
+    height: 15rem;
+    object-fit: cover;
+}
