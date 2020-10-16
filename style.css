@@ -28,6 +28,6 @@ body {
 
 .card-img-top {
     width: auto;
-    height: 15vw;
+    height: 15rem;
     object-fit: cover;
 }
