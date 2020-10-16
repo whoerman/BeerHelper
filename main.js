@@ -118,6 +118,8 @@
         }
 
 
+
+//area for stuff I am using to work on the program
     function listAll() {
         for (i = 0; i < beerData.length; i++) {
             makeFullBeerCard();
@@ -163,7 +165,10 @@
     // listGlassAll();
     // listFlavorQuestionAll();
     // listHistoryQuestionAll();
-    listProfileQuestionAll();
+    // listProfileQuestionAll();
+
+    i = Math.floor(Math.random() * beerData.length)
+    makeHistoryQuestionCard();
 
     addAnswerListeners();
     
