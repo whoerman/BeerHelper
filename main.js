@@ -202,9 +202,38 @@
     function processResult() {
         if (chosenAnswer == currentBeer.type) {
             console.log("correct");
-            newFlavorQuestion();
+            document.getElementById("contentdiv").innerHTML = 
+            '<div class="card border-secondary text-center"> \
+                <div class="card-body"> \
+                    <h4 class="text-center m-0"> Correct!! </h4>\
+                    <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
+                    <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
+                    <h6 class="card-title">Color: ' + currentBeer.color.light + ' to ' + currentBeer.color.dark + ' (' + currentBeer.color.lightSRM + ' to ' + currentBeer.color.darkSRM + ' SRM)</h6>\
+                    <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
+                    <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' to ' + currentBeer.alcohol.higherdesc + ' Alcohol </h6>\
+                    <h6 class="card-title">(' + currentBeer.alcohol.lowerabv + '% to ' + currentBeer.alcohol.higherabv + '% ABV)</h6>\
+                </div> \
+            </div>';
+            setTimeout(function () {
+                newFlavorQuestion();
+            }, 2500);
         } else {
             console.log("wrong");
-            newFlavorQuestion();
+            document.getElementById("contentdiv").innerHTML = 
+            '<div class="card border-secondary text-center"> \
+            <div class="card-body"> \
+                <h4 class="text-center m-0"> Wrong!! </h4>\
+                <h4 class="text-center m-0"> The correct answer was: </h4>\
+                <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
+                <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
+                <h6 class="card-title">Color: ' + currentBeer.color.light + ' to ' + currentBeer.color.dark + ' (' + currentBeer.color.lightSRM + ' to ' + currentBeer.color.darkSRM + ' SRM)</h6>\
+                <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
+                <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' to ' + currentBeer.alcohol.higherdesc + ' Alcohol </h6>\
+                <h6 class="card-title">(' + currentBeer.alcohol.lowerabv + '% to ' + currentBeer.alcohol.higherabv + '% ABV)</h6>\
+            </div> \
+        </div>';
+            setTimeout(function () {
+                newFlavorQuestion();
+            }, 2500);
         }
     };
