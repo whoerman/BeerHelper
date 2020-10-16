@@ -174,16 +174,17 @@
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer2.type;
         });
-        //picking a random beer, adding it to the answer buttons, then removing it from the choices
+        //picking a random beer, adding it to the answer buttons (no need to remove it as not picking more)
         randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
         answerArray.push(randomBeer3.type);
-        console.log(answerArray);
         //shuffling the 4 answers
         shuffle(answerArray);
+        console.log(answerArray);
         makeAnswerButtons();
     }
 
     //first question
+    document.getElementById("navbardiv").innerHTML = "";
     pickRandomBeer();
     makeAnswerArray();
     makeHistoryQuestionCard();
