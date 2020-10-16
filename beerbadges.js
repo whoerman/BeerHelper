@@ -22,10 +22,11 @@
             fullGlassTypeCard =
                 '<div class="card border-secondary text-center"> \
             <div class="card-body"> \
-                <h4 class="text-center m-0">' + (i + 1) + '.   <i class="fas fa-Beer"></i> ' + glassTypeData[i].type + ' </h4>\
+                <h4 class="text-center m-0"> Glassware Type: </h4>\
                 <img class="card-img-top" src="./assets/images/beerpics/' + glassTypeData[i].image + '" alt="' + beerData[i].type + ' picture"> \
+                <h4 class="text-center m-0">' + (i + 1) + '.   <i class="fas fa-Beer"></i> ' + glassTypeData[i].type + ' </h4>\
                 <p class="text-center m-0"><em>' + glassTypeData[i].country + '</em></p>\
-                <p class="card-title"><em>' + glassTypeData[i].description + '</em></p>\
+                <p class="card-title">' + glassTypeData[i].description + '</p>\
             </div> \
         </div>';
             document.getElementById("contentdiv").innerHTML += fullGlassTypeCard;

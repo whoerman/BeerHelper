@@ -20,8 +20,8 @@ let beerData = [{
         lowerabv: 5,
         higherabv: 8,
     },
-    flavor: 'A long multi-organism fermentation gives this memeber of the lambic family lactic, barnyard-like, and earthy flavors. Gueuzes are refermented in the bottle to yield high carbonation, which results in a tart, refreshing beer with significant complexity.',
-    history: 'Spontaneously fermented beers such as Gueuze and other Lambics have been brewed in belgium for centuries',
+    flavor: 'A long multi-organism fermentation gives this beer lactic, barnyard-like, and earthy flavors. Beers in this style are refermented in the bottle to yield high carbonation, which results in a tart, refreshing beer with significant complexity.',
+    history: 'Spontaneously fermented beers in this style have been brewed in Belgium for centuries',
     relatedstyles: [
         "Fruit Lambic", "Flander's Red", "Lambic"
     ]
@@ -47,7 +47,7 @@ let beerData = [{
         higherabv: 7,
     },
     flavor: 'Fermented by several yeast and bacteria, aged for up to 3 years, and often a blend of batches and vintages, this complex ale exhibits fruit flavor as well as tart, acidic, earthy and barnyard-like traits.',
-    history: 'The most common styles of Fruit Lambic are Kriekm (aged with cherries) and Framboise (aged with raspberries)',
+    history: 'The most common beers of this style are Kriek (aged with cherries) and Framboise (aged with raspberries).',
     relatedstyles: [
         "Gueuze", "Flander's Red", "Lambic"
     ]
@@ -124,8 +124,8 @@ let beerData = [{
         lowerabv: 7.5,
         higherabv: 9.5,
     },
-    flavor: 'Characterized by fruity esters and spicy/peppery phenols produced during fermentation. Medium bodied with a slight sweetness and pale malt flavor, Belgian Tripels may also have substantial hop flavor and aroma.',
-    history: 'First brewed in the early 1900s. Many trappist and abbey breweries produce a beer in this style.',
+    flavor: 'Characterized by fruity esters and spicy/peppery phenols produced during fermentation. Medium bodied with a slight sweetness and pale malt flavor, this style may also have substantial hop flavor and aroma.',
+    history: 'First brewed in the early 1900s. Many trappist and abbey breweries produce a strong beer in this style.',
     relatedstyles: [
         "Belgian Blond Ale", "Belgian Golden Strong Ale"
     ]
@@ -150,7 +150,7 @@ let beerData = [{
         lowerabv: 6,
         higherabv: 7.5,
     },
-    flavor: 'Gold in color and malt-balanced. Malt along with frutiy esters gives an impression of sweetness.',
+    flavor: 'Gold in color and malt-balanced. Malt along with fruity esters gives an impression of sweetness.',
     history: 'Developed to compete with Pilsner-style beers. Often shows slightly less fermentation character than most other Belgian styles.',
     relatedstyles: [
         "Belgian Tripel", "Belgian Golden Strong Ale"
@@ -203,7 +203,7 @@ let beerData = [{
         higherabv: 7,
     },
     flavor: 'Fruity esters and peppery phenolic notes from fermentation occasionally fortified by an eclectic mix of herbs and spices. Further complexity from low to medium hop aroma and flavor. High carbonation and high attenuation contribute to dryness.',
-    history: 'AN artisanal Belgian ale fermented with a distinctive yeast.',
+    history: 'An artisanal Belgian ale fermented with a distinctive yeast.',
     relatedstyles: [
         "Biere de Garde", "Witbier"
     ]
@@ -229,7 +229,7 @@ let beerData = [{
         higherabv: 5.5,
     },
     flavor: 'Spicy wheat ale with refreshing flavors derived both from fermentation and the addition of spices such as coriander and orange peel. Notable for using unmalted wheat for 50% of the recipe.',
-    history: 'A Belgian ale with a long history, Witbier died out in the 1950s, only to be revived in the 1960s by Pierre Celis. Popularity has since grown immensely.',
+    history: 'A Belgian ale with a long history, this style died out in the 1950s, only to be revived in the 1960s by Pierre Celis. Popularity has since grown immensely.',
     relatedstyles: [
         "American Wheat Beer", "Gose", "Saison", "Weissbier", "White IPA"
     ]
@@ -255,7 +255,7 @@ let beerData = [{
         higherabv: 4.6,
     },
     flavor: 'A "session" beer, flavorful but brewed for drinkability. Balanced toward bitterness but with apparent malt character. Herbal, earthy hoppiness.',
-    history: 'A member of the British Bitters family, descended from 19th century India Pale Ale.',
+    history: 'A member of the British Bitters family, this style descended from 19th century India Pale Ale.',
     relatedstyles: [
         "Ordinary Bitter", "Scottish Heavy", "Strong Bitter", "English IPA"
     ]
@@ -332,7 +332,7 @@ let beerData = [{
         lowerabv: 4,
         higherabv: 6,
     },
-    flavor: 'Sweet Stout displays lower bitterness than most stouts to emphasize malt flavor and sweetness. A sub-style of Sweet Atout called Milk Stout is further sweetened by adding lactose.',
+    flavor: 'This beer displays lower bitterness than most stouts to emphasize malt flavor and sweetness. A sub-style called Milk Stout is further sweetened by adding lactose.',
     history: 'First marketed in the early 1900s as a nutritious drink for nursing mothers.',
     relatedstyles: [
         "Irish Stout", "Oatmeal Stout"
@@ -358,7 +358,7 @@ let beerData = [{
         lowerabv: 4.2,
         higherabv: 5.9,
     },
-    flavor: 'Oatmeal stout displays a balance somewhere between an Irish Stout and a Sweet Stout, but often tends towards sweetness with a full creamy mouthfeel.',
+    flavor: 'This style displays a balance somewhere between an Irish Stout and a Sweet Stout, but often tends towards sweetness with a full creamy mouthfeel.',
     history: 'A variation of stout utilizing oatmeal to enhance body and mouthfeel.',
     relatedstyles: [
         "Irish Stout", "Sweet Stout"
@@ -410,8 +410,8 @@ let beerData = [{
         lowerabv: 4,
         higherabv: 4.5,
     },
-    flavor: 'Irish Stout has the lowest alcohol content of the many stout variations. Defined by burnt, acrid, coffe-like flavor from roasted barley. Significant bitterness but little to no hop aroma or flavor.',
-    history: 'Originally a stronger version of porter, stout is now the more varied and well-known style family. Irish STout is sometime labeled as Dry Stout.',
+    flavor: 'This beer has the lowest alcohol content of the many stout variations. Defined by burnt, acrid, coffe-like flavor from roasted barley. Significant bitterness but little to no hop aroma or flavor.',
+    history: 'Originally a stronger version of porter, this is now the more varied and well-known style family. It is sometimes labeled as Dry Stout.',
     relatedstyles: [
         "Foreign Extra Stout", "Imperial Stout", "Sweet Stout", "Oatmeal Stout"
     ]
@@ -489,7 +489,7 @@ let beerData = [{
         higherabv: 5.8,
     },
     flavor: 'Generally darker and more malty than German Pils, but with similar levels of aroma, flavor, and bittering hops.',
-    history: 'Golden lager from Czech Republic city of Pilsen, first brewed in 1842.',
+    history: 'This golden lager is from the Czech Republic city of Pilsen, first brewed in 1842.',
     relatedstyles: [
         "German Pils"
     ]
@@ -515,7 +515,7 @@ let beerData = [{
         higherabv: 6.3,
     },
     flavor: 'A malt-balanced beer with about 0.5 to 1.0% more alcohol than German Pils or Munich Helles. Most examples show malt flavors of bread, toast, and bread crusts.',
-    history: 'Märzen (March) beers were once brewed strong for long summer storage. In 1810 Märzen was used to celebrate the royal wedding that has become the modern-day Oktoberfest.',
+    history: '"March" beers were once brewed strong for long summer storage. In 1810 this style was used to celebrate the royal wedding that has become the modern-day Oktoberfest.',
     relatedstyles: [
         "Festbier", "Munich Dunkel", "Rauchbier", "Vienna Lager"
     ]
@@ -540,8 +540,8 @@ let beerData = [{
         lowerabv: 6.3,
         higherabv: 7.4,
     },
-    flavor: 'Has the bready, toasty flavors of a pale Doppelbock, but with less alcoholic strength and more hop flavor, aroma, and bitterness.',
-    history: 'A plae version of bock made to celebrate Spring. Also referred to as Maibock.',
+    flavor: 'This beer has the bready, toasty flavors of a pale Doppelbock, but with less alcoholic strength and more hop flavor, aroma, and bitterness.',
+    history: 'A pale version of bock made to celebrate Spring, this beer is also referred to as Maibock.',
     relatedstyles: [
         "Doppelbock", "Dunkles Bock"
     ]
@@ -567,7 +567,7 @@ let beerData = [{
         higherabv: 10,
     },
     flavor: 'Highly malty and often sweet and thick. The malt character follows beer color with pale examples being bready and toasty while darker examples show toffee and chocolate flavors. Alcohol warnth may be apparent.',
-    history: 'Originally brewed by monks as liquid bread for sustenance during fasts.',
+    history: 'This beer was originally brewed by monks as liquid bread for sustenance during fasts.',
     relatedstyles: [
         "Dunkles Bock", "Eisbock", "Helles Bock"
     ]
@@ -592,8 +592,8 @@ let beerData = [{
         lowerabv: 4.3,
         higherabv: 5.6,
     },
-    flavor: 'Flour-like maltiness of wheat balanced by clove and banana fermentation flavors and high levels of carbonation.',
-    history: 'Weissbier has fluctuated in popularity over several centuries but today is quite popular in bavaria and beyond. Brwed with at least 50% malted wheat. Fermented with a unique yeast strain that produces banana and clove flavors.',
+    flavor: 'Typically this beer has flour-like maltiness of wheat balanced by clove and banana fermentation flavors and high levels of carbonation.',
+    history: 'This beer has fluctuated in popularity over several centuries but today is quite popular in Bavaria and beyond. Brewed with at least 50% malted wheat. Fermented with a unique yeast strain that produces banana and clove flavors.',
     relatedstyles: [
         "American Wheat Beer", "Dunkles Weisbier", "Weizenbock", "Witbier"
     ]
@@ -671,7 +671,7 @@ let beerData = [{
         higherabv: 5.2,
     },
     flavor: 'Often described as the ale version of a Pilsner, with subtle fruitiness, delicate malt flavor, and moderate bitterness. High attenuation gives the beer a crisp, refreshing adge.',
-    history: 'Brewed in Cologne, Germany using ale yeast at cooler temperatures.',
+    history: 'This beer is classically brewed in Cologne, Germany using ale yeast at cooler temperatures.',
     relatedstyles: [
         "Altbier", "German Pils"
     ]
@@ -697,7 +697,7 @@ let beerData = [{
         higherabv: 12,
     },
     flavor: 'Light flavor, thin body, and high carbonation combine to create a highly refreshing beer.',
-    history: 'First brewed in the mid-1900s, American Light Lagers achieved widespread popularity through targeted marketing in the 1970s.',
+    history: 'First brewed in the mid-1900s, this style achieved widespread popularity through targeted marketing in the 1970s.',
     relatedstyles: [
         "American Lager", "Cream Ale", "International Pale Lager"
     ]
@@ -722,8 +722,8 @@ let beerData = [{
         lowerabv: 4,
         higherabv: 5.5,
     },
-    flavor: 'Light malt flovor includes flour and bread notes from wheat. Hop character varies from low to moderate. Does not have the clove-banana fermentation traits of German wheat beers.',
-    history: "American craft brewers' interpretation of German wheat beer",
+    flavor: 'Light malt flavor includes flour and bread notes from wheat. Hop character varies from low to moderate. Does not have the clove-banana fermentation traits of German wheat beers.',
+    history: "This is the American craft brewers' interpretation of German wheat beer",
     relatedstyles: [
         "American Blonde Ale", "Weissbier", "Witbier"
     ]
@@ -749,7 +749,7 @@ let beerData = [{
         higherabv: 5.5,
     },
     flavor: 'Bread and light biscuit notes from pale malts. Variable level of hop flavor and gentle bitterness.',
-    history: 'Lightly flavored alt-malt beer.',
+    history: 'A lightly flavored alt-malt beer.',
     relatedstyles: [
         "American Wheat Beer"
     ]
@@ -800,8 +800,8 @@ let beerData = [{
         lowerabv: 4.5,
         higherabv: 6.2,
     },
-    flavor: 'Amber ales have the evident citrus and pine hoppiness of American Pale Ale with a richer malt base that includes dark caramel and toasted flavors. Both malt and hops are medium to high in flavor impact.',
-    history: 'Developed as a variation of American Pale Ale. Sometimes referred to as "Red Ale"',
+    flavor: 'These ales have the evident citrus and pine hoppiness of American Pale Ale with a richer malt base that includes dark caramel and toasted flavors. Both malt and hops are medium to high in flavor impact.',
+    history: 'Developed as a variation of American Pale Ale, this style is sometimes referred to as "Red Ale"',
     relatedstyles: [
         "American Pale Ale", "California Common"
     ]
@@ -827,7 +827,7 @@ let beerData = [{
         higherabv: 7.5,
     },
     flavor: 'This style is defined by the assertive presence of American hops in aroma, flavor, and bitterness. Resinous, citrus hop traits dominate aroma and flavor.',
-    history: 'The original "pale" ale of English, Scottish & Irish, commonly exported to India and later adopted for domestic consumption. The first American interpretations of IPA were brewed in the 1970s, and the style found widespread popularity beginning in the 1990s.',
+    history: 'The original "pale" ale of English, Scottish & Irish, commonly exported to India and later adopted for domestic consumption. The first American interpretations were brewed in the 1970s, and the style found widespread popularity beginning in the 1990s.',
     relatedstyles: [
         "American Pale Ale", "Black IPA", "Double IPA", "English IPA", "White IPA"
     ]
@@ -853,7 +853,7 @@ let beerData = [{
         higherabv: 10,
     },
     flavor: 'This style is characterized by an extreme expression of American hops in aroma, flavor, and bitterness. Maltiness may be subdued by the use of sugar to lighten the body.',
-    history: 'Born in the mid 1990s from the increasing popularity of hop-forward IPAs.',
+    history: 'This style was born in the mid 1990s from the increasing popularity of hop-forward IPAs.',
     relatedstyles: [
         "American IPA", "American Barleywine"
     ]
@@ -905,7 +905,7 @@ let beerData = [{
         higherabv: 6.5,
     },
     flavor: 'Displays dark malt flavors like chocolate and roast without intense acrid or burnt flavors of stout. Hopping vaires widely.',
-    history: 'Porter hostory extends back to the early 1700s, but this more modern version includes black patent malt, which dates form about 1817. Porters made without this are known as English Porter.',
+    history: 'Porter history extends back to the early 1700s, but this more modern version includes black patent malt, which dates form about 1817. Porters made without this are known as English Porter.',
     relatedstyles: [
         "American Stout", "Baltic Porter", "English Porter", "Foreign Extra Stout"
     ]
@@ -931,7 +931,7 @@ let beerData = [{
         higherabv: 7,
     },
     flavor: 'The roasty, coffee flavors of stout form the malt base of this beer, supported by moderate citrus and resinous American hops in flavor, aroma, and bitterness.',
-    history: 'And American variation of Foreign Extra Stout.',
+    history: 'An American variation of Foreign Extra Stout.',
     relatedstyles: [
         "American Porter", "Black IPA", "Foreign Extra Stout", "Imperial Stout"
     ]
@@ -957,7 +957,7 @@ let beerData = [{
         higherabv: 12,
     },
     flavor: 'Intense roasted flavors of chocolate and coffee with medium to high hop bitterness. Dark and dried fruit notes are common. The additional alcohol may impart a warming quality to the mouthfeel.',
-    history: 'Originally born from the British porter tradition, this hogh alcohol dark ale was very popular with the Russian Imperial Court in the early 1800s. Today, Imperial Stout is most commonly produced by American craft breweries.',
+    history: 'Originally born from the British porter tradition, this hogh alcohol dark ale was very popular with the Russian Imperial Court in the early 1800s. Today, it is most commonly produced by American craft breweries.',
     relatedstyles: [
         "American Stout", "Baltic Porter", "Foreign extra Stout", "Irish Stout"
     ]
@@ -982,7 +982,7 @@ let beerData = [{
         lowerabv: 8,
         higherabv: 12,
     },
-    flavor: 'American Barleywines typically show high levels of American hop aroma, flavor, and bitterness as well as rich caramel and coffee malt flavors in a robust, high-alcohol ale.',
+    flavor: 'This style typically show high levels of American hop aroma, flavor, and bitterness as well as rich caramel and coffee malt flavors in a robust, high-alcohol ale.',
     history: 'Inspired by English Barleywine, though brewed with American ingredients and a substantially higher hopping rate.',
     relatedstyles: [
         "Double IPA", "English Barleywine"
@@ -1087,7 +1087,7 @@ let beerData = [{
         higherabv: 8,
     },
     flavor: 'Malt flavors of caramel, toffee, and chocolate are common, along with dark or dried fruit flavors and gentle acidity.',
-    history: 'Asociated with East Flanders, Oud Bruin is typically soured in stainless steel, rather than wood.',
+    history: 'Asociated with East Flanders, this beer is typically soured in stainless steel, rather than wood.',
     relatedstyles: [
         "Flander's Red Ale"
     ]
@@ -1216,7 +1216,7 @@ let beerData = [{
         lowerabv: 4.6,
         higherabv: 6.2,
     },
-    flavor: 'Malt flavors of caramel, biscuit, and toast are balanced by herbal, eathy hop flavor and firm hop bitterness.',
+    flavor: 'Malt flavors of caramel, biscuit, and toast are balanced by herbal, earthy hop flavor and firm hop bitterness.',
     history: 'The strongest of the three bitter ale styles.',
     relatedstyles: [
         "Belgian Pale Ale", "Best Bitter", "English IPA", "Ordinary Bitter"
@@ -1242,8 +1242,8 @@ let beerData = [{
         lowerabv: 3.0,
         higherabv: 3.8,
     },
-    flavor: 'Dark Milds sometimes have a tannin-like dryness and include toasty, caramelly, chocolatey, and even slightly roasted malt flavors. Minimal hopping means that Dark Mild is generally malt balanced.',
-    history: 'Historically, Mild was a general name for fresh, unaged beer. Today, the name refers to a lower alcohol dark style ale.',
+    flavor: 'This style sometimes has a tannin-like dryness and include toasty, caramelly, chocolatey, and even slightly roasted malt flavors. Minimal hopping means that Dark Mild is generally malt balanced.',
+    history: 'Historically, This style was a general name for fresh, unaged beer. Today, the name refers to a lower alcohol dark style ale.',
     relatedstyles: [
         "British Brownn Ale", "English Porter"
     ]
@@ -1268,8 +1268,8 @@ let beerData = [{
         lowerabv: 4.0,
         higherabv: 5.4,
     },
-    flavor: 'Made with black malt, English Porter is toasty and nutty with some caramel notes, little to no hop flavor, and a balance ranging from slightly malty to slightly bitter. There may also be mild to moderate notes of roastiness.',
-    history: 'Modern English Porter is the present-day descendant of the original, pre-roating drum porters, and is sometimes refered to as Brown Porter.',
+    flavor: 'Made with black malt, This beer is toasty and nutty with some caramel notes, little to no hop flavor, and a balance ranging from slightly malty to slightly bitter. There may also be mild to moderate notes of roastiness.',
+    history: 'Modern examples are the present-day descendants of the original, pre-roating drum porters, and is sometimes refered to as Brown Porter.',
     relatedstyles: [
         "American Porter", "British Brown Ale", "Dark Mild"
     ]
@@ -1294,7 +1294,7 @@ let beerData = [{
         lowerabv: 6.3,
         higherabv: 8,
     },
-    flavor: 'In terms of alcoholic strength, Foriegn Extra Stout falls between Irish Stout and Imperial Stout. The flavor is dominated by notes of roasted grain, chocolate, and coffee.',
+    flavor: 'In terms of alcoholic strength, this falls between Irish Stout and Imperial Stout. The flavor is dominated by notes of roasted grain, chocolate, and coffee.',
     history: 'Also sometimes known as "double stout", "export stout", or simply "foreign stout".',
     relatedstyles: [
         "Irish Stout", "American Porter", "American Stout", "Imperial Stout"
@@ -1321,7 +1321,7 @@ let beerData = [{
         higherabv: 9,
     },
     flavor: 'Sweet with malt flavors of caramel, toffe, treacle, or molasses, as well as frutiy esters. Oxidation flavors such as sherry or port may exist, as well as other flavors from lactic acid bacteria and Brettanomyces.',
-    history: 'Traditionally aged at the brewery as a stock ale, much like early vatted porters. Today Old Ale is commonly a blend of fresh and stock ales.',
+    history: 'Traditionally aged at the brewery as a stock ale, much like early vatted porters. Today this beer is commonly a blend of fresh and stock ales.',
     relatedstyles: [
         "English Barleywine"
     ]
@@ -1347,7 +1347,7 @@ let beerData = [{
         higherabv: 12,
     },
     flavor: 'Intense flaovors of biscuit, toast, caramel, and molasses, and sometimes dark or dried fruit. Earthy or herbal English hop flavor and aroma may be present.',
-    history: 'Barleywine sits atop the "ladder" of English plae ales, following a similar formulation to English IPA and bitter, but increased ABV and flavor intensity.',
+    history: 'This sits atop the "ladder" of English plae ales, following a similar formulation to English IPA and bitter, but increased ABV and flavor intensity.',
     relatedstyles: [
         "American Barleywine", "English IPA", "Old Ale"
     ]
@@ -1451,7 +1451,7 @@ let beerData = [{
         higherabv: 5,
     },
     flavor: 'Malt balanced with moderate flavors of caramel, toast, or toffee, and little to no hop aroma or flavor.',
-    history: 'Irish Red Ale typically gets its red color from the addition of a small amount of roasted barley.',
+    history: 'This style typically gets its red color from the addition of a small amount of roasted barley.',
     relatedstyles: [
         "Scottish Export", "Strong Bitter"
     ]
@@ -1632,7 +1632,7 @@ let beerData = [{
         lowerabv: 9,
         higherabv: 14,
     },
-    flavor: 'Rich, toasty, and caramel malt flvors with significant alcohol warmth and very full body. Often displays substantial dark fruit flavors.',
+    flavor: 'Rich, toasty, and caramel malt flavors with significant alcohol warmth and very full body. Often displays substantial dark fruit flavors.',
     history: 'Made by freezing Doppelbock and removing the water content, thus concentrating the alcohol content and creating this very strong, rich beer.',
     relatedstyles: [
         "Dopplebock"
