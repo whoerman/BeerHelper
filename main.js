@@ -34,12 +34,12 @@
 
     //setting up quiz formats
 
-        //making the card types as needed
+    //making the card types as needed
 
-            ///formatting the flavor question card
-            function makeFlavorQuestionCard() {
-                flavorQuestionCard =
-                    '<div class="card border-secondary text-center"> \
+    ///formatting the flavor question card
+    function makeFlavorQuestionCard() {
+        flavorQuestionCard =
+            '<div class="card border-secondary text-center"> \
                         <div class="card-body"> \
                             <h4 class="text-center m-0"> Match the Flavor: </h4>\
                             <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
@@ -48,28 +48,28 @@
                             <div id="answerSection">' + answerOptionsCard + '</div>\
                         </div> \
                     </div>';
-                document.getElementById("contentdiv").innerHTML += flavorQuestionCard;
-            }
+        document.getElementById("contentdiv").innerHTML += flavorQuestionCard;
+    }
 
-            ///formatting the history question card
-            function makeHistoryQuestionCard() {
-                historyQuestionCard =
-                    '<div class="card border-secondary text-center"> \
+    ///formatting the history question card
+    function makeHistoryQuestionCard() {
+        historyQuestionCard =
+            '<div class="card border-secondary text-center"> \
                             <div class="card-body"> \
-                                <h4 class="text-center m-0"> Match the Story: </h4>\
+                                <h4 class="text-center m-0"> Match the History: </h4>\
                                 <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
                                 <p class="card-title"><em>' + beerData[i].history + '</em></p>\
                                 <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
                                 <div id="answerSection">' + answerOptionsCard + '</div>\
                             </div> \
                         </div>';
-                document.getElementById("contentdiv").innerHTML += historyQuestionCard;
-            }
+        document.getElementById("contentdiv").innerHTML += historyQuestionCard;
+    }
 
-            ///formatting the profile question card
-            function makeProfileQuestionCard() {
-                profileQuestionCard =
-                    '<div class="card border-secondary text-center"> \
+    ///formatting the profile question card
+    function makeProfileQuestionCard() {
+        profileQuestionCard =
+            '<div class="card border-secondary text-center"> \
                                 <div class="card-body"> \
                                     <h4 class="text-center m-0"> Match the Profile: </h4>\
                                     <p class="text-center m-0"><em>' + beerData[i].country + '</em></p>\
@@ -82,97 +82,128 @@
                                     <div id="answerSection">' + answerOptionsCard + '</div>\
                                     </div> \
                             </div>';
-                document.getElementById("contentdiv").innerHTML += profileQuestionCard;
-            }
+        document.getElementById("contentdiv").innerHTML += profileQuestionCard;
+    }
 
 
-        //making answer buttons
-        function makeAnswerButtons() {
-            answerOptionsCard =
-                '<div>\
-                <button type="button" id="answerAButton" class="btn btn-warning btn-block m-1">A: ' + answerA + '</button>\
-                <button type="button" id="answerBButton" class="btn btn-warning btn-block m-1">A: ' + answerB + '</button>\
-                <button type="button" id="answerCButton" class="btn btn-warning btn-block m-1">A: ' + answerC + '</button>\
-                <button type="button" id="answerDButton" class="btn btn-warning btn-block m-1">A: ' + answerD + '</button> \
+    //making answer buttons
+    function makeAnswerButtons() {
+        answerOptionsCard =
+            '<div>\
+                <button type="button" id="answerAButton" class="btn btn-warning btn-block m-1">A: ' + answerArray[0] + '</button>\
+                <button type="button" id="answerBButton" class="btn btn-warning btn-block m-1">B: ' + answerArray[1] + '</button>\
+                <button type="button" id="answerCButton" class="btn btn-warning btn-block m-1">C: ' + answerArray[2] + '</button>\
+                <button type="button" id="answerDButton" class="btn btn-warning btn-block m-1">D: ' + answerArray[3] + '</button> \
                 </div>';
-        }
-
-        //adding event listeners once the answer buttons are made
-        function addAnswerListeners() {
-            document.getElementById("answerAButton").addEventListener("click", function () {
-                chosenAnswer = answerA;
-                processResult();
-            });
-            document.getElementById("answerBButton").addEventListener("click", function () {
-                chosenAnswer = answerB;
-                processResult();
-            });
-            document.getElementById("answerCButton").addEventListener("click", function () {
-                chosenAnswer = answerC;
-                processResult();
-            });
-            document.getElementById("answerDButton").addEventListener("click", function () {
-                chosenAnswer = answerD;
-                processResult();
-            });
-        }
-
-
-
-//area for stuff I am using to work on the program
-    function listAll() {
-        for (i = 0; i < beerData.length; i++) {
-            makeFullBeerCard();
-            console.log(beerData[i].type)
-        }
     }
 
-    function listGlassAll() {
-        for (i = 0; i < glassTypeData.length; i++) {
-            makeFullGlassTypeCard();
-            console.log(glassTypeData[i].type)
-        }
+    //adding event listeners once the answer buttons are made
+    function addAnswerListeners() {
+        document.getElementById("answerAButton").addEventListener("click", function () {
+            chosenAnswer = answerArray[0];
+            processResult();
+        });
+        document.getElementById("answerBButton").addEventListener("click", function () {
+            chosenAnswer = answerArray[1];
+            processResult();
+        });
+        document.getElementById("answerCButton").addEventListener("click", function () {
+            chosenAnswer = answerArray[2];
+            processResult();
+        });
+        document.getElementById("answerDButton").addEventListener("click", function () {
+            chosenAnswer = answerArray[3];
+            processResult();
+        });
     }
 
-    function listFlavorQuestionAll() {
-        for (i = 0; i < beerData.length; i++) {
-            makeFlavorQuestionCard();
-            console.log(beerData[i].type)
+    //shuffling the answer Array
+    function shuffle(answerArray) {
+        var currentIndex = answerArray.length,
+            temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = answerArray[currentIndex];
+            answerArray[currentIndex] = answerArray[randomIndex];
+            answerArray[randomIndex] = temporaryValue;
         }
+
+        return answerArray;
     }
 
-    function listHistoryQuestionAll() {
-        for (i = 0; i < beerData.length; i++) {
-            makeHistoryQuestionCard();
-            console.log(beerData[i].type)
-        }
+
+
+    //making the game
+
+    //piccking a random beer out of the list
+    function pickRandomBeer() {
+        i = Math.floor(Math.random() * beerData.length)
+        currentBeer = beerData[i];
+        //sub array of all the beers from that region
+        subBeerCountryArray = beerData.filter(function (randomBeer) {
+            return randomBeer.country === currentBeer.country;
+        });
     }
 
-    function listProfileQuestionAll() {
-        for (i = 0; i < beerData.length; i++) {
-            makeProfileQuestionCard();
-            console.log(beerData[i].type)
-        }
+
+    //making an array of answers including the chosen one
+    function makeAnswerArray() {
+        //putting the random beer in the answer array which also resets it
+        answerArray = [
+            currentBeer.type
+        ];
+        subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
+            return randomBeer.type !== currentBeer.type;
+        });
+        //picking a random beer 1, adding it to the answer buttons, then removing it from the choices
+        randomBeer1 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
+        answerArray.push(randomBeer1.type);
+        subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
+            return randomBeer.type !== randomBeer1.type;
+        });
+        //picking a random beer 2, adding it to the answer buttons, then removing it from the choices
+        randomBeer2 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
+        answerArray.push(randomBeer2.type);
+        subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
+            return randomBeer.type !== randomBeer2.type;
+        });
+        //picking a random beer, adding it to the answer buttons, then removing it from the choices
+        randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
+        answerArray.push(randomBeer3.type);
+        console.log(answerArray);
+        //shuffling the 4 answers
+        shuffle(answerArray);
+        makeAnswerButtons();
     }
 
-    let answerA = "American IPA";
-    let answerB = "Gose";
-    let answerC = "Schwarzbier";
-    let answerD = "irish Stout";
-    makeAnswerButtons();
-
-    // listAll();
-    // listGlassAll();
-    // listFlavorQuestionAll();
-    // listHistoryQuestionAll();
-    // listProfileQuestionAll();
-
-    i = Math.floor(Math.random() * beerData.length)
+    //first question
+    pickRandomBeer();
+    makeAnswerArray();
     makeHistoryQuestionCard();
-
     addAnswerListeners();
-    
+
+    function newFlavorQuestion() {
+        document.getElementById("contentdiv").innerHTML = "";
+        pickRandomBeer();
+        makeAnswerArray();
+        makeHistoryQuestionCard();
+        addAnswerListeners();
+    }
+
+
     function processResult() {
-        console.log(chosenAnswer);
+        if (chosenAnswer == currentBeer.type) {
+            console.log("correct");
+            newFlavorQuestion();
+        } else {
+            console.log("wrong");
+            newFlavorQuestion();
+        }
     };
-   

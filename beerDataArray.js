@@ -1815,7 +1815,7 @@ let beerData = [{
         higherabv: 5.6,
     },
     flavor: 'Although similar in appearance and alcohol to American Lager, this style usually has a distinct corn-like malt character and low but apparent bitterness.',
-    history: 'Though referred to as an ale, this style is sometimes brewed witha lager yeast strain. Commonly produced by ale brewers to compete with the popularity of American lagers.',
+    history: 'Though referred to as an ale, this style is sometimes brewed with a lager yeast strain. Commonly produced by ale brewers to compete with the popularity of American lagers.',
     relatedstyles: [
         "American Lager", "American Light Lager"
     ]
