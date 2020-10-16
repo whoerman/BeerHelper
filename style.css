@@ -25,3 +25,9 @@ body {
 .btn {
     font-size: 1.3rem;
 }
+
+.card-img-top {
+    width: auto;
+    height: 15vw;
+    object-fit: cover;
+}
