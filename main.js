@@ -1,3 +1,6 @@
+    score = 0;
+    turn = 0;
+    
     //formatting the full beer card
     function makeFullBeerCard() {
         fullBeerCard =
@@ -155,6 +158,7 @@
 
     //making an array of answers including the chosen one
     function makeAnswerArray() {
+
         //putting the random beer in the answer array which also resets it
         answerArray = [
             currentBeer.type
@@ -162,18 +166,21 @@
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== currentBeer.type;
         });
+
         //picking a random beer 1, adding it to the answer buttons, then removing it from the choices
-        randomBeer1 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
+        randomBeer1 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
         answerArray.push(randomBeer1.type);
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer1.type;
         });
+
         //picking a random beer 2, adding it to the answer buttons, then removing it from the choices
-        randomBeer2 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
+        randomBeer2 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
         answerArray.push(randomBeer2.type);
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer2.type;
         });
+
         //picking a random beer, adding it to the answer buttons (no need to remove it as not picking more)
         randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
         answerArray.push(randomBeer3.type);
@@ -187,27 +194,53 @@
     document.getElementById("navbardiv").innerHTML = "";
     pickRandomBeer();
     makeAnswerArray();
-    makeHistoryQuestionCard();
+    q = Math.floor(Math.random() * 3)
+    console.log(q);
+    switch(q) {
+        case 0:
+          makeHistoryQuestionCard();
+          break;
+        case 1:
+          makeFlavorQuestionCard();
+          break;
+        default:
+          makeProfileQuestionCard();
+      }
     addAnswerListeners();
 
-    function newFlavorQuestion() {
+    function newQuestion() {
         document.getElementById("contentdiv").innerHTML = "";
         pickRandomBeer();
         makeAnswerArray();
-        makeHistoryQuestionCard();
+        q = Math.floor(Math.random() * 3)
+        console.log(q);
+        switch(q) {
+            case 0:
+              makeHistoryQuestionCard();
+              break;
+            case 1:
+              makeFlavorQuestionCard();
+              break;
+            default:
+              makeProfileQuestionCard();
+          }
         addAnswerListeners();
     }
+
 
 
     function processResult() {
         if (chosenAnswer == currentBeer.type) {
             console.log("correct");
+            score += 1;
+            turn += 1;
+            //display for a correct answer
             document.getElementById("contentdiv").innerHTML = 
-            '<div class="card border-secondary text-center"> \
+            '<div class="card border-secondary bg-success text-center"> \
                 <div class="card-body"> \
-                    <h4 class="text-center m-0"> Correct!! </h4>\
+                    <h5 class="text-center m-0"> Correct!!      Score: ' + score + '/' + turn + '</h5>\
                     <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
-                    <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
+                    <img class="card-img-sidebar float-right m-2" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
                     <h6 class="card-title">Color: ' + currentBeer.color.light + ' to ' + currentBeer.color.dark + ' (' + currentBeer.color.lightSRM + ' to ' + currentBeer.color.darkSRM + ' SRM)</h6>\
                     <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
                     <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' to ' + currentBeer.alcohol.higherdesc + ' Alcohol </h6>\
@@ -215,17 +248,19 @@
                 </div> \
             </div>';
             setTimeout(function () {
-                newFlavorQuestion();
+                newQuestion();
             }, 2500);
         } else {
             console.log("wrong");
+            turn += 1;
+            //display for a wrong guess
             document.getElementById("contentdiv").innerHTML = 
-            '<div class="card border-secondary text-center"> \
+            '<div class="card border-secondary bg-danger text-center"> \
             <div class="card-body"> \
-                <h4 class="text-center m-0"> Wrong!! </h4>\
+                <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
                 <h4 class="text-center m-0"> The correct answer was: </h4>\
                 <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
-                <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
+                <img class="card-img-sidebar float-right m-2" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
                 <h6 class="card-title">Color: ' + currentBeer.color.light + ' to ' + currentBeer.color.dark + ' (' + currentBeer.color.lightSRM + ' to ' + currentBeer.color.darkSRM + ' SRM)</h6>\
                 <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
                 <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' to ' + currentBeer.alcohol.higherdesc + ' Alcohol </h6>\
@@ -233,7 +268,7 @@
             </div> \
         </div>';
             setTimeout(function () {
-                newFlavorQuestion();
+                newQuestion();
             }, 2500);
         }
     };
