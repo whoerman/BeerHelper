@@ -1,6 +1,6 @@
     score = 0;
     turn = 0;
-    
+
     //formatting the full beer card
     function makeFullBeerCard() {
         fullBeerCard =
@@ -42,13 +42,15 @@
     ///formatting the flavor question card
     function makeFlavorQuestionCard() {
         flavorQuestionCard =
-            '<div class="card border-secondary text-center"> \
+        '<div class="card-columns mt-2"> \
+            <div class="card border-secondary text-center"> \
                         <div class="card-body"> \
                             <h4 class="text-center m-0"> Match the Flavor: </h4>\
                             <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
                             <p class="card-title"><em>' + beerData[i].flavor + '</em></p>\
                             <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
                             <div id="answerSection">' + answerOptionsCard + '</div>\
+                        </div> \
                         </div> \
                     </div>';
         document.getElementById("contentdiv").innerHTML += flavorQuestionCard;
@@ -57,13 +59,15 @@
     ///formatting the history question card
     function makeHistoryQuestionCard() {
         historyQuestionCard =
-            '<div class="card border-secondary text-center"> \
+        '<div class="card-columns mt-2"> \
+            <div class="card border-secondary text-center"> \
                             <div class="card-body"> \
                                 <h4 class="text-center m-0"> Match the History: </h4>\
                                 <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
                                 <p class="card-title"><em>' + beerData[i].history + '</em></p>\
                                 <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
                                 <div id="answerSection">' + answerOptionsCard + '</div>\
+                            </div> \
                             </div> \
                         </div>';
         document.getElementById("contentdiv").innerHTML += historyQuestionCard;
@@ -72,19 +76,21 @@
     ///formatting the profile question card
     function makeProfileQuestionCard() {
         profileQuestionCard =
-            '<div class="card border-secondary text-center"> \
-                                <div class="card-body"> \
-                                    <h4 class="text-center m-0"> Match the Profile: </h4>\
-                                    <p class="text-center m-0"><em>' + beerData[i].country + '</em></p>\
-                                    <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
-                                    <h6 class="card-title">Color: ' + beerData[i].color.light + ' to ' + beerData[i].color.dark + ' (' + beerData[i].color.lightSRM + ' to ' + beerData[i].color.darkSRM + ' SRM)</h6>\
-                                    <h6 class="card-title">' + beerData[i].bitter.type + ' Bitterness (' + beerData[i].bitter.lowibu + ' to ' + beerData[i].bitter.highibu + ' IBU)</h6>\
-                                    <h6 class="card-title">' + beerData[i].alcohol.lowerdesc + ' to ' + beerData[i].alcohol.higherdesc + ' Alcohol </h6>\
-                                    <h6 class="card-title">(' + beerData[i].alcohol.lowerabv + '% to ' + beerData[i].alcohol.higherabv + '% ABV)</h6>\
-                                    <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
-                                    <div id="answerSection">' + answerOptionsCard + '</div>\
-                                    </div> \
-                            </div>';
+            '<div class="card-columns mt-2"> \
+                <div class="card border-secondary text-center"> \
+                    <div class="card-body"> \
+                        <h4 class="text-center m-0"> Match the Profile: </h4>\
+                        <p class="text-center m-0"><em>' + beerData[i].country + '</em></p>\
+                        <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
+                        <h6 class="card-title">Color: ' + beerData[i].color.light + ' to ' + beerData[i].color.dark + ' (' + beerData[i].color.lightSRM + ' to ' + beerData[i].color.darkSRM + ' SRM)</h6>\
+                        <h6 class="card-title">' + beerData[i].bitter.type + ' Bitterness (' + beerData[i].bitter.lowibu + ' to ' + beerData[i].bitter.highibu + ' IBU)</h6>\
+                        <h6 class="card-title">' + beerData[i].alcohol.lowerdesc + ' to ' + beerData[i].alcohol.higherdesc + ' Alcohol </h6>\
+                        <h6 class="card-title">(' + beerData[i].alcohol.lowerabv + '% to ' + beerData[i].alcohol.higherabv + '% ABV)</h6>\
+                        <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
+                        <div id="answerSection">' + answerOptionsCard + '</div>\
+                    </div> \
+                </div> \
+            </div>';
         document.getElementById("contentdiv").innerHTML += profileQuestionCard;
     }
 
@@ -196,16 +202,16 @@
     makeAnswerArray();
     q = Math.floor(Math.random() * 3)
     console.log(q);
-    switch(q) {
+    switch (q) {
         case 0:
-          makeHistoryQuestionCard();
-          break;
+            makeHistoryQuestionCard();
+            break;
         case 1:
-          makeFlavorQuestionCard();
-          break;
+            makeFlavorQuestionCard();
+            break;
         default:
-          makeProfileQuestionCard();
-      }
+            makeProfileQuestionCard();
+    }
     addAnswerListeners();
 
     function newQuestion() {
@@ -214,16 +220,16 @@
         makeAnswerArray();
         q = Math.floor(Math.random() * 3)
         console.log(q);
-        switch(q) {
+        switch (q) {
             case 0:
-              makeHistoryQuestionCard();
-              break;
+                makeHistoryQuestionCard();
+                break;
             case 1:
-              makeFlavorQuestionCard();
-              break;
+                makeFlavorQuestionCard();
+                break;
             default:
-              makeProfileQuestionCard();
-          }
+                makeProfileQuestionCard();
+        }
         addAnswerListeners();
     }
 
@@ -235,8 +241,9 @@
             score += 1;
             turn += 1;
             //display for a correct answer
-            document.getElementById("contentdiv").innerHTML = 
-            '<div class="card border-secondary bg-success text-center"> \
+            document.getElementById("contentdiv").innerHTML =
+            '<div class="card-columns mt-2"> \
+                <div class="card border-secondary bg-success text-center"> \
                 <div class="card-body"> \
                     <h5 class="text-center m-0"> Correct!!      Score: ' + score + '/' + turn + '</h5>\
                     <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
@@ -246,6 +253,7 @@
                     <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' to ' + currentBeer.alcohol.higherdesc + ' Alcohol </h6>\
                     <h6 class="card-title">(' + currentBeer.alcohol.lowerabv + '% to ' + currentBeer.alcohol.higherabv + '% ABV)</h6>\
                 </div> \
+                </div> \
             </div>';
             setTimeout(function () {
                 newQuestion();
@@ -254,8 +262,9 @@
             console.log("wrong");
             turn += 1;
             //display for a wrong guess
-            document.getElementById("contentdiv").innerHTML = 
-            '<div class="card border-secondary bg-danger text-center"> \
+            document.getElementById("contentdiv").innerHTML =
+            '<div class="card-columns mt-2"> \
+                <div class="card border-secondary bg-danger text-center"> \
             <div class="card-body"> \
                 <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
                 <h4 class="text-center m-0"> The correct answer was: </h4>\
@@ -265,6 +274,7 @@
                 <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
                 <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' to ' + currentBeer.alcohol.higherdesc + ' Alcohol </h6>\
                 <h6 class="card-title">(' + currentBeer.alcohol.lowerabv + '% to ' + currentBeer.alcohol.higherabv + '% ABV)</h6>\
+            </div> \
             </div> \
         </div>';
             setTimeout(function () {
