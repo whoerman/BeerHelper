@@ -42,7 +42,7 @@
     ///formatting the flavor question card
     function makeFlavorQuestionCard() {
         flavorQuestionCard =
-        '<div class="card-columns mt-2"> \
+            '<div class="card-columns mt-2"> \
             <div class="card border-secondary text-center"> \
                         <div class="card-body"> \
                             <h4 class="text-center m-0"> Match the Flavor: </h4>\
@@ -59,7 +59,7 @@
     ///formatting the history question card
     function makeHistoryQuestionCard() {
         historyQuestionCard =
-        '<div class="card-columns mt-2"> \
+            '<div class="card-columns mt-2"> \
             <div class="card border-secondary text-center"> \
                             <div class="card-body"> \
                                 <h4 class="text-center m-0"> Match the History: </h4>\
@@ -219,7 +219,6 @@
         pickRandomBeer();
         makeAnswerArray();
         q = Math.floor(Math.random() * 3)
-        console.log(q);
         switch (q) {
             case 0:
                 makeHistoryQuestionCard();
@@ -240,9 +239,10 @@
             console.log("correct");
             score += 1;
             turn += 1;
+            console.log("Coorect: " + score + " Turn: " + turn)
             //display for a correct answer
             document.getElementById("contentdiv").innerHTML =
-            '<div class="card-columns mt-2"> \
+                '<div class="card-columns mt-2"> \
                 <div class="card border-secondary bg-success text-center"> \
                 <div class="card-body"> \
                     <h5 class="text-center m-0"> Correct!!      Score: ' + score + '/' + turn + '</h5>\
@@ -256,14 +256,27 @@
                 </div> \
             </div>';
             setTimeout(function () {
-                newQuestion();
+                if (turn < 11) {
+                    newQuestion();
+                } else {
+                    document.getElementById("contentdiv").innerHTML =
+                    '<div class="card-columns mt-2"> \
+                        <div class="card border-secondary bg-primary text-center"> \
+                            <div class="card-body"> \
+                                <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
+                                <h4 class="text-center m-0"> Game Over!! </h4>\
+                            </div> \
+                        </div> \
+                    </div>';
+                }
             }, 2500);
         } else {
             console.log("wrong");
             turn += 1;
+            console.log("Coorect: " + score + " Turn: " + turn)
             //display for a wrong guess
             document.getElementById("contentdiv").innerHTML =
-            '<div class="card-columns mt-2"> \
+                '<div class="card-columns mt-2"> \
                 <div class="card border-secondary bg-danger text-center"> \
             <div class="card-body"> \
                 <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
@@ -278,7 +291,20 @@
             </div> \
         </div>';
             setTimeout(function () {
-                newQuestion();
+                if (turn < 11) {
+                    newQuestion();
+                } else {
+                    document.getElementById("contentdiv").innerHTML =
+                        '<div class="card-columns mt-2"> \
+                            <div class="card border-secondary bg-primary text-center"> \
+                                <div class="card-body"> \
+                                    <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
+                                    <h4 class="text-center m-0"> Game Over!! </h4>\
+                                </div> \
+                            </div> \
+                        </div>';
+                }
+
             }, 2500);
         }
     };
