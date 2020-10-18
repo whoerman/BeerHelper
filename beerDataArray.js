@@ -24,7 +24,10 @@ let beerData = [{
     history: 'Spontaneously fermented beers in this style have been brewed in Belgium for centuries',
     relatedstyles: [
         "Fruit Lambic", "Flander's Red", "Lambic"
-    ]
+    ],
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
 }, {
     type: 'Fruit Lambic',
     image: 'fruitlambic.jpg',
@@ -51,7 +54,11 @@ let beerData = [{
     relatedstyles: [
         "Gueuze", "Flander's Red", "Lambic"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Flanders Red',
     image: 'flandersred.jpg',
     country: 'Belgian',
@@ -77,7 +84,11 @@ let beerData = [{
     relatedstyles: [
         "Gueuze", "Fruit Lambic", "Oud Bruin"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Belgian Dubbel',
     image: 'belgiandubbel.jpg',
     country: 'Belgian',
@@ -103,7 +114,11 @@ let beerData = [{
     relatedstyles: [
         "Belgian Dark Strong Ale"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Belgian Tripel',
     image: 'belgiantripel.jpg',
     country: '',
@@ -155,7 +170,11 @@ let beerData = [{
     relatedstyles: [
         "Belgian Tripel", "Belgian Golden Strong Ale"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Belgian Golden Strong Ale',
     image: 'belgiangoldenstrongale.jpg',
     country: 'Belgian',
@@ -181,7 +200,11 @@ let beerData = [{
     relatedstyles: [
         "Belgian Blond", "Belgian Tripel"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Saison',
     image: 'saison.jpg',
     country: 'Belgian',
@@ -207,7 +230,11 @@ let beerData = [{
     relatedstyles: [
         "Biere de Garde", "Witbier"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Witbier',
     image: 'witbier.jpg',
     country: 'Belgian',
@@ -233,7 +260,11 @@ let beerData = [{
     relatedstyles: [
         "American Wheat Beer", "Gose", "Saison", "Weissbier", "White IPA"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Best Bitter',
     image: 'bestbitter.jpg',
     country: 'English, Scottish & Irish',
@@ -259,7 +290,11 @@ let beerData = [{
     relatedstyles: [
         "Ordinary Bitter", "Scottish Heavy", "Strong Bitter", "English IPA"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'English IPA',
     image: 'englishipa.jpg',
     country: 'English, Scottish & Irish',
@@ -285,7 +320,11 @@ let beerData = [{
     relatedstyles: [
         "American IPA", "Best Bitter", "English Barleywine", "Ordinary Bitter", "Strong Bitter"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'British Brown Ale',
     image: 'britishbrownale.jpg',
     country: 'English, Scottish & Irish',
@@ -311,7 +350,11 @@ let beerData = [{
     relatedstyles: [
         "American Brown Ale", "Dark Mild", "English PorterS"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Sweet Stout',
     image: 'sweetstout.jpg',
     country: 'English, Scottish & Irish',
@@ -337,7 +380,11 @@ let beerData = [{
     relatedstyles: [
         "Irish Stout", "Oatmeal Stout"
     ]
-},     {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Oatmeal Stout',
     image: 'oatmealstout.jpg',
     country: 'English, Scottish & Irish',
@@ -389,7 +436,11 @@ let beerData = [{
     relatedstyles: [
         "Scottish Light", "Scottish Heavy", "Scottish Export"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Irish Stout',
     image: 'irishstout.jpg',
     country: 'English, Scottish & Irish',
@@ -415,7 +466,11 @@ let beerData = [{
     relatedstyles: [
         "Foreign Extra Stout", "Imperial Stout", "Sweet Stout", "Oatmeal Stout"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'German Pils',
     image: 'germanpils.jpg',
     country: 'German & Czech',
@@ -441,7 +496,11 @@ let beerData = [{
     relatedstyles: [
         "Czech Premium Pale Lager", "Kölsch", "Munich Helles"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Munich Helles',
     image: 'munichhelles.jpg',
     country: 'German & Czech',
@@ -467,7 +526,11 @@ let beerData = [{
     relatedstyles: [
         "Festbier", "German Pils", "International Pale Lager"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Czech Premium Pale Lager',
     image: 'czechpremiumpalelager.jpg',
     country: 'German & Czech',
@@ -493,7 +556,11 @@ let beerData = [{
     relatedstyles: [
         "German Pils"
     ]
-},   {
+,
+    trivia1: "In 1842, the citizens of western Bohemia became grew unhappy with the quality of the beer, decided to build Bürger Brauerei (Citizens’ Brewery) and hired Bavarian brewmaster Josef Groll to brew this syle.",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Märzen',
     image: 'marzen.jpg',
     country: 'German & Czech',
@@ -519,7 +586,11 @@ let beerData = [{
     relatedstyles: [
         "Festbier", "Munich Dunkel", "Rauchbier", "Vienna Lager"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Helles Bock',
     image: 'hellesbock.jpg',
     country: 'German & Czech',
@@ -545,7 +616,11 @@ let beerData = [{
     relatedstyles: [
         "Doppelbock", "Dunkles Bock"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Doppelbock',
     image: 'doppelbock.jpg',
     country: 'German & Czech',
@@ -571,7 +646,11 @@ let beerData = [{
     relatedstyles: [
         "Dunkles Bock", "Eisbock", "Helles Bock"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Weissbier',
     image: 'weissbier.jpg',
     country: 'German & Czech',
@@ -597,7 +676,11 @@ let beerData = [{
     relatedstyles: [
         "American Wheat Beer", "Dunkles Weisbier", "Weizenbock", "Witbier"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Berliner Weisse',
     image: 'berlinerweisse.jpg',
     country: 'German & Czech',
@@ -623,7 +706,11 @@ let beerData = [{
     relatedstyles: [
         "Gose"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Gose',
     image: 'gose.jpg',
     country: 'German & Czech',
@@ -649,7 +736,11 @@ let beerData = [{
     relatedstyles: [
         "Berliner Weisse", "Witbier"
     ]
-},   {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Kölsch',
     image: 'kolsch.jpg',
     country: 'German & Czech',
@@ -675,7 +766,11 @@ let beerData = [{
     relatedstyles: [
         "Altbier", "German Pils"
     ]
-},   {
+,
+    trivia1: "Köbes (special waiters dressed in blue aprons) serve this fantastic ale one after another until you signal you have had enough by placing your coaster on top of your glass.",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Light Lager',
     image: 'americanlightlager.jpg',
     country: 'American',
@@ -701,7 +796,11 @@ let beerData = [{
     relatedstyles: [
         "American Lager", "Cream Ale", "International Pale Lager"
     ]
-},   {
+,
+    trivia1: "The three top-selling beers in the US, by Budweiser and Miller Coors, are of what style?",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Wheat Beer',
     image: 'americanwheatbeer.jpg',
     country: 'American',
@@ -727,7 +826,11 @@ let beerData = [{
     relatedstyles: [
         "American Blonde Ale", "Weissbier", "Witbier"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Blonde Ale',
     image: 'americanblondeale.jpg',
     country: 'American',
@@ -753,7 +856,11 @@ let beerData = [{
     relatedstyles: [
         "American Wheat Beer"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Pale Ale',
     image: 'americanpaleale.jpg',
     country: 'American',
@@ -779,7 +886,11 @@ let beerData = [{
     relatedstyles: [
         "American Amber Ale", "American IPA"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Amber Ale',
     image: 'americanamberale.jpg',
     country: 'American',
@@ -805,7 +916,11 @@ let beerData = [{
     relatedstyles: [
         "American Pale Ale", "California Common"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American IPA',
     image: 'americanipa.jpg',
     country: 'American',
@@ -831,7 +946,11 @@ let beerData = [{
     relatedstyles: [
         "American Pale Ale", "Black IPA", "Double IPA", "English IPA", "White IPA"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Double IPA',
     image: 'doubleipa.jpg',
     country: 'American',
@@ -857,7 +976,11 @@ let beerData = [{
     relatedstyles: [
         "American IPA", "American Barleywine"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Brown Ale',
     image: 'americanbrownale.jpg',
     country: 'American',
@@ -883,7 +1006,11 @@ let beerData = [{
     relatedstyles: [
         "British Brown Ale"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Porter',
     image: 'americanporter.jpg',
     country: 'American',
@@ -909,7 +1036,11 @@ let beerData = [{
     relatedstyles: [
         "American Stout", "Baltic Porter", "English Porter", "Foreign Extra Stout"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Stout',
     image: 'americanstout.jpg',
     country: 'American',
@@ -935,7 +1066,11 @@ let beerData = [{
     relatedstyles: [
         "American Porter", "Black IPA", "Foreign Extra Stout", "Imperial Stout"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Imperial Stout',
     image: 'imperialstout.jpg',
     country: 'American',
@@ -961,7 +1096,11 @@ let beerData = [{
     relatedstyles: [
         "American Stout", "Baltic Porter", "Foreign extra Stout", "Irish Stout"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'American Barleywine',
     image: 'americanbarleywine.jpg',
     country: 'American',
@@ -987,7 +1126,11 @@ let beerData = [{
     relatedstyles: [
         "Double IPA", "English Barleywine"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'California Common',
     image: 'californiacommon.jpg',
     country: 'American',
@@ -1013,7 +1156,11 @@ let beerData = [{
     relatedstyles: [
         "American Amber Ale"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'International Pale Lager',
     image: 'internationalpalelager.jpg',
     country: 'Other',
@@ -1039,7 +1186,11 @@ let beerData = [{
     relatedstyles: [
         "American Lager", "American Light Lager", "Munich Helles"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Lambic',
     image: 'lambic.jpg',
     country: 'Belgian',
@@ -1065,7 +1216,11 @@ let beerData = [{
     relatedstyles: [
         "Fruit Lambic", "Gueuze"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Oud Bruin',
     image: 'oudbruin.jpg',
     country: 'Belgian',
@@ -1091,7 +1246,11 @@ let beerData = [{
     relatedstyles: [
         "Flander's Red Ale"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Belgian Dark Strong Ale',
     image: 'belgiandarkstrongale.jpg',
     country: 'Belgian',
@@ -1117,7 +1276,11 @@ let beerData = [{
     relatedstyles: [
         "Belgian Dubbel"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Belgian Pale Ale',
     image: 'belgianpaleale.jpg',
     country: 'Belgian',
@@ -1143,7 +1306,11 @@ let beerData = [{
     relatedstyles: [
         "Strong Bitter"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Biere de Garde',
     image: 'bieredegarde.jpg',
     country: 'Belgian',
@@ -1169,7 +1336,11 @@ let beerData = [{
     relatedstyles: [
         "Siason"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Ordinary Bitter',
     image: 'ordinarybitter.jpg',
     country: 'English, Scottish & Irish',
@@ -1195,7 +1366,11 @@ let beerData = [{
     relatedstyles: [
         "Best Bitter", "English IPA", "Strong Bitter"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Strong Bitter',
     image: 'strongbitter.jpg',
     country: 'English, Scottish & Irish',
@@ -1221,7 +1396,11 @@ let beerData = [{
     relatedstyles: [
         "Belgian Pale Ale", "Best Bitter", "English IPA", "Ordinary Bitter"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Dark Mild',
     image: 'darkmild.jpg',
     country: 'English, Scottish & Irish',
@@ -1247,7 +1426,11 @@ let beerData = [{
     relatedstyles: [
         "British Brownn Ale", "English Porter"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'English Porter',
     image: 'englishporter.jpg',
     country: 'English, Scottish & Irish',
@@ -1273,7 +1456,11 @@ let beerData = [{
     relatedstyles: [
         "American Porter", "British Brown Ale", "Dark Mild"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Foreign Extra Stout',
     image: 'foreignextrastout.jpg',
     country: 'English, Scottish & Irish',
@@ -1299,7 +1486,11 @@ let beerData = [{
     relatedstyles: [
         "Irish Stout", "American Porter", "American Stout", "Imperial Stout"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Old Ale',
     image: 'oldale.jpg',
     country: 'English, Scottish & Irish',
@@ -1325,7 +1516,11 @@ let beerData = [{
     relatedstyles: [
         "English Barleywine"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'English Barleywine',
     image: 'englishbarleywine.jpg',
     country: 'English, Scottish & Irish',
@@ -1351,7 +1546,11 @@ let beerData = [{
     relatedstyles: [
         "American Barleywine", "English IPA", "Old Ale"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Scottish Light',
     image: 'scottishlight.jpg',
     country: 'English, Scottish & Irish',
@@ -1377,7 +1576,11 @@ let beerData = [{
     relatedstyles: [
         "Ordinary Bitter", "Scottish Export", "Scottish Heavy", "Wee Heavy"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Scottish Heavy',
     image: 'scottishheavy.jpg',
     country: 'English, Scottish & Irish',
@@ -1403,7 +1606,11 @@ let beerData = [{
     relatedstyles: [
         "Best Bitter", "Scottish Export", "Scottish Light", "Wee heavy"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Scottish Export',
     image: 'scottishexport.jpg',
     country: 'English, Scottish & Irish',
@@ -1429,7 +1636,11 @@ let beerData = [{
     relatedstyles: [
         "Scottish Heavy", "Scottish Light", "Strong Bitter", "Wee Heavy"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Irish Red Ale',
     image: 'irishredale.jpg',
     country: 'English, Scottish & Irish',
@@ -1455,7 +1666,11 @@ let beerData = [{
     relatedstyles: [
         "Scottish Export", "Strong Bitter"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Vienna Lager',
     image: 'viennalager.jpg',
     country: 'German & Czech',
@@ -1481,7 +1696,11 @@ let beerData = [{
     relatedstyles: [
         "Märzen"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Festbier',
     image: 'festbier.jpg',
     country: 'German & Czech',
@@ -1507,7 +1726,11 @@ let beerData = [{
     relatedstyles: [
         "Märzen", "Munich Helles"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Munich Dunkel',
     image: 'munichdunkel.jpg',
     country: 'German & Czech',
@@ -1533,7 +1756,11 @@ let beerData = [{
     relatedstyles: [
         "Dunkles Bock", "Märzen"
     ]
-},  {
+,
+    trivia1: "Negro Modelo (brewd in mexico by Grupo Modelo) and Harpoon Dark (brewed in MA by Harppon) are suprisingly what style?",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Schwarzbier',
     image: 'schwarzbier.jpg',
     country: 'German & Czech',
@@ -1559,7 +1786,11 @@ let beerData = [{
     relatedstyles: [
         "Munich Dunkel"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Rauchbier',
     image: 'rauchbier.jpg',
     country: 'German & Czech',
@@ -1585,7 +1816,11 @@ let beerData = [{
     relatedstyles: [
         "Märzen"
     ]
-},  {
+,
+    trivia1: "Before Daniel Wheeler invented his drum kiln in 1818 and changed the course of brewing history forever, the only way to dry malt was directly over an open fire, often resulting in this style. ",
+    trivia2: "There are currently nine breweries within the city of Bamberg, and two of these have become synonymous with this traditional style — Bauerei Schlenkerla and Christian Merz Brauerei Spezial.",
+    trivia3: "Because drying malt over a fire has a long history, this style has probably been created for over 5000 years.",
+}, {
     type: 'Dunkles Bock',
     image: 'dunklesbock.jpg',
     country: 'German & Czech',
@@ -1611,7 +1846,11 @@ let beerData = [{
     relatedstyles: [
         "Doppelbock", "Helles Bock"
     ]
-},  {
+,
+    trivia1: "The style was a dark, malty, lightly hopped ale first brewed in the 14th century by German brewers in the Hanseatic town of Einbeck.",
+    trivia2: "This style is historically associated with special occasions, often religious festivals such as Christmas, Easter or Lent.",
+    trivia3: "Less alcohol and malty richness than a Doppelbock. Stronger malt flavors and higher alcohol than a Märzen. Richer, less attenuated, and less hoppy than a Czech Amber Lager. ",
+}, {
     type: 'Eisbock',
     image: 'eisbock.jpg',
     country: 'German & Czech',
@@ -1637,7 +1876,11 @@ let beerData = [{
     relatedstyles: [
         "Dopplebock"
     ]
-},  {
+,
+    trivia1: "It is said that this style was invented at the Reichelbräu brewery in Kulmbach, Upper Franconia, around 1890 when some kegs of bock were unwittingly left outside on a particularly frigid night.",
+    trivia2: "This style is also rarely found in the U.S. because of alcohol laws that put the method in the same category as other forms of distillation.",
+    trivia3: "Today, this style may be one of the rarest beer styles around due to the expense and effort that goes into producing it. ",
+}, {
     type: 'Dunkles Weissbier',
     image: 'dunklesweissbier.jpg',
     country: 'German & Czech',
@@ -1663,7 +1906,11 @@ let beerData = [{
     relatedstyles: [
         "Weissbier", "Weizenbock"
     ]
-},  {
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
     type: 'Weizenbock',
     image: 'weizenbock.jpg',
     country: 'German & Czech',
@@ -1689,7 +1936,11 @@ let beerData = [{
     relatedstyles: [
         "Dunkles Weissbier", "Weissbier"
     ]
-},  {
+,
+    trivia1: "In 15th century Bavaria, the brewing of this style was completely controlled by the aristocratic family Degenberger. it was restricted to those in a higher social class.",
+    trivia2: "In 1872, the King Ludwig II, of the Wittelsbach House and current ruler of Bavaria, discontinued all brewing of this style due to the sharply declining sales.",
+    trivia3: "Georg Schneider was a private brewer who had taken over the contract at the royal Bavarian Weisses Hofbrauhaus in Munich in 1855 and resurrected this style. ",
+}, {
     type: 'Altbier',
     image: 'altbier.jpg',
     country: 'German & Czech',
@@ -1715,7 +1966,11 @@ let beerData = [{
     relatedstyles: [
         "Kölsch "
     ]
-},  {
+,
+    trivia1: "This style of beer is classcially brewed in the historical region of Westphalia and around the city of Düsseldorf, Germany. ",
+    trivia2: "The market leader in terms of volume sold is Diebels, a brand within the AB InBev brewing empire. Other mass-market brewers include the Radeberger Gruppe under the brands Schlösser Alt and Hansa Alt. ",
+    trivia3: "This style  is fermented at a moderate temperature using a top-fermenting yeast which gives its flavour some fruitiness, but matured at a cooler temperature, which gives it a cleaner and crisper taste.",
+}, {
     type: 'American Lager',
     image: 'americanlager.jpg',
     country: 'American',
@@ -1741,7 +1996,11 @@ let beerData = [{
     relatedstyles: [
         "American Light Lager", "Cream Ale"
     ]
-},  {
+,
+    trivia1: "When John Wagner, a Bavarian brewer, arrived in America in 1840, he came with some precious cargo: a supply of special yeast from his native Bavaria to make this style. ",
+    trivia2: "To conteract higher protien American grains, German-American brewers began adding lower-protein grains, like rice and corn, to more closely emulate the German verison of this style.",
+    trivia3: "This style especially took off in popularity in New York, where, by 1877, George Ehret’s Hell Gate Brewery became the largest in the country.",
+}, {
     type: 'Black IPA',
     image: 'blackipa.jpg',
     country: 'American',
@@ -1767,7 +2026,11 @@ let beerData = [{
     relatedstyles: [
         "American IPA", "American Stout"
     ]
-},  {
+,
+    trivia1: "Most USA writers point toward the early ‘90s as the first period where anyone was regularly brewing beers that we would today identify as this style.",
+    trivia2: "No American craft beer style has ever generated more contentious debate than this style when it comes to nomenclature. ",
+    trivia3: "Brands of this style include Avery Brewing Co. New World Porter, Firestone Walker Wookey Jack, and Stone Enjoy By",
+}, {
     type: 'White IPA',
     image: 'whiteipa.jpg',
     country: 'American',
@@ -1793,7 +2056,11 @@ let beerData = [{
     relatedstyles: [
         "American IPA", "Witbier"
     ]
-},  {
+,
+    trivia1: "In 2010, Larry Sidor, the brewmaster at Oregon-based Deschutes Brewery, and Belgian-born Steven Pauwels, brewmaster at Boulevard Brewing, got together to develop a collaboration recipe.",
+    trivia2: "Deschutes called theirs Conflux Series No. 2 and Boulevard’s was simply named Collaboration No. 2 under their Smoke House Series. In 2010, they were a hit!",
+    trivia3: "With a little more heft than a Brut IPA and less hangover-inducing punch than a Hazy IPA, the style is your summer-ready version.",
+}, {
     type: 'Cream Ale',
     image: 'creamale.jpg',
     country: 'American',
@@ -1819,6 +2086,39 @@ let beerData = [{
     relatedstyles: [
         "American Lager", "American Light Lager"
     ]
+,
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
+}, {
+    type: 'Baltic Porter',
+    image: 'balticporter.jpg',
+    country: 'Other',
+    color: {
+        light: 'Dark Amber',
+        dark: 'Dark Brown',
+        lightSRM: 17,
+        darkSRM: 30,
+    },
+    bitter: {
+        type: 'Moderate',
+        lowibu: 20,
+        highibu: 40,
+    },
+    alcohol: {
+        lowerdesc: 'Elevated',
+        higherdesc: 'High',
+        lowerabv: 6.5,
+        higherabv: 9.5,
+    },
+    flavor: 'Low roast character is supported by toasty, caramel, and sometime licorice notes. Some dark fruit aroma is possible.',
+    history: 'A higher ABV variation of porter that gained popularity in the Baltic countries. Often brewed with lager yeast, but ale versions are sometimes seen.',
+    relatedstyles: [
+        "American Porter", "Imperial Stout", "Schwarzbier"
+    ],
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
 },  {
     type: 'Baltic Porter',
     image: 'balticporter.jpg',
@@ -1844,5 +2144,8 @@ let beerData = [{
     history: 'A higher ABV variation of porter that gained popularity in the Baltic countries. Often brewed with lager yeast, but ale versions are sometimes seen.',
     relatedstyles: [
         "American Porter", "Imperial Stout", "Schwarzbier"
-    ]
+    ],
+    trivia1: "",
+    trivia2: "",
+    trivia3: "",
 }, ];

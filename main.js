@@ -37,119 +37,96 @@
 
     //setting up quiz formats
 
-    //making the card types as needed
+        //making the card types as needed
 
-    ///formatting the flavor question card
-    function makeFlavorQuestionCard() {
-        flavorQuestionCard =
-            '<div class="card-columns mt-2"> \
-            <div class="card border-secondary text-center"> \
-                        <div class="card-body"> \
-                            <h4 class="text-center m-0"> Match the Flavor: </h4>\
-                            <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
-                            <p class="card-title"><em>' + beerData[i].flavor + '</em></p>\
-                            <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
-                            <div id="answerSection">' + answerOptionsCard + '</div>\
-                        </div> \
-                        </div> \
-                    </div>';
-        document.getElementById("contentdiv").innerHTML += flavorQuestionCard;
-    }
+            ///formatting the flavor question card
+            function makeFlavorQuestionCard() {
+                flavorQuestionCard =
+                    '<div class="card-columns mt-2"> \
+                    <div class="card border-secondary text-center"> \
+                                <div class="card-body"> \
+                                    <h4 class="text-center m-0"> Match the Flavor: </h4>\
+                                    <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
+                                    <p class="card-title"><em>' + beerData[i].flavor + '</em></p>\
+                                    <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
+                                    <div id="answerSection">' + answerOptionsCard + '</div>\
+                                </div> \
+                                </div> \
+                            </div>';
+                document.getElementById("contentdiv").innerHTML += flavorQuestionCard;
+            }
 
-    ///formatting the history question card
-    function makeHistoryQuestionCard() {
-        historyQuestionCard =
-            '<div class="card-columns mt-2"> \
-            <div class="card border-secondary text-center"> \
+            ///formatting the history question card
+            function makeHistoryQuestionCard() {
+                historyQuestionCard =
+                    '<div class="card-columns mt-2"> \
+                    <div class="card border-secondary text-center"> \
+                                    <div class="card-body"> \
+                                        <h4 class="text-center m-0"> Match the History: </h4>\
+                                        <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
+                                        <p class="card-title"><em>' + beerData[i].history + '</em></p>\
+                                        <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
+                                        <div id="answerSection">' + answerOptionsCard + '</div>\
+                                    </div> \
+                                    </div> \
+                                </div>';
+                document.getElementById("contentdiv").innerHTML += historyQuestionCard;
+            }
+
+            ///formatting the profile question card
+            function makeProfileQuestionCard() {
+                profileQuestionCard =
+                    '<div class="card-columns mt-2"> \
+                        <div class="card border-secondary text-center"> \
                             <div class="card-body"> \
-                                <h4 class="text-center m-0"> Match the History: </h4>\
+                                <h4 class="text-center m-0"> Match the Profile: </h4>\
+                                <p class="text-center m-0"><em>' + beerData[i].country + '</em></p>\
                                 <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
-                                <p class="card-title"><em>' + beerData[i].history + '</em></p>\
+                                <h6 class="card-title">Color: ' + beerData[i].color.light + ' to ' + beerData[i].color.dark + ' (' + beerData[i].color.lightSRM + ' to ' + beerData[i].color.darkSRM + ' SRM)</h6>\
+                                <h6 class="card-title">' + beerData[i].bitter.type + ' Bitterness (' + beerData[i].bitter.lowibu + ' to ' + beerData[i].bitter.highibu + ' IBU)</h6>\
+                                <h6 class="card-title">' + beerData[i].alcohol.lowerdesc + ' to ' + beerData[i].alcohol.higherdesc + ' Alcohol </h6>\
+                                <h6 class="card-title">(' + beerData[i].alcohol.lowerabv + '% to ' + beerData[i].alcohol.higherabv + '% ABV)</h6>\
                                 <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
                                 <div id="answerSection">' + answerOptionsCard + '</div>\
                             </div> \
-                            </div> \
-                        </div>';
-        document.getElementById("contentdiv").innerHTML += historyQuestionCard;
-    }
-
-    ///formatting the profile question card
-    function makeProfileQuestionCard() {
-        profileQuestionCard =
-            '<div class="card-columns mt-2"> \
-                <div class="card border-secondary text-center"> \
-                    <div class="card-body"> \
-                        <h4 class="text-center m-0"> Match the Profile: </h4>\
-                        <p class="text-center m-0"><em>' + beerData[i].country + '</em></p>\
-                        <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
-                        <h6 class="card-title">Color: ' + beerData[i].color.light + ' to ' + beerData[i].color.dark + ' (' + beerData[i].color.lightSRM + ' to ' + beerData[i].color.darkSRM + ' SRM)</h6>\
-                        <h6 class="card-title">' + beerData[i].bitter.type + ' Bitterness (' + beerData[i].bitter.lowibu + ' to ' + beerData[i].bitter.highibu + ' IBU)</h6>\
-                        <h6 class="card-title">' + beerData[i].alcohol.lowerdesc + ' to ' + beerData[i].alcohol.higherdesc + ' Alcohol </h6>\
-                        <h6 class="card-title">(' + beerData[i].alcohol.lowerabv + '% to ' + beerData[i].alcohol.higherabv + '% ABV)</h6>\
-                        <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
-                        <div id="answerSection">' + answerOptionsCard + '</div>\
-                    </div> \
-                </div> \
-            </div>';
-        document.getElementById("contentdiv").innerHTML += profileQuestionCard;
-    }
+                        </div> \
+                    </div>';
+                document.getElementById("contentdiv").innerHTML += profileQuestionCard;
+            }
 
 
-    //making answer buttons
-    function makeAnswerButtons() {
-        answerOptionsCard =
-            '<div>\
-                <button type="button" id="answerAButton" class="btn btn-warning btn-block m-1">A: ' + answerArray[0] + '</button>\
-                <button type="button" id="answerBButton" class="btn btn-warning btn-block m-1">B: ' + answerArray[1] + '</button>\
-                <button type="button" id="answerCButton" class="btn btn-warning btn-block m-1">C: ' + answerArray[2] + '</button>\
-                <button type="button" id="answerDButton" class="btn btn-warning btn-block m-1">D: ' + answerArray[3] + '</button> \
-                </div>';
-    }
-
-    //adding event listeners once the answer buttons are made
-    function addAnswerListeners() {
-        document.getElementById("answerAButton").addEventListener("click", function () {
-            chosenAnswer = answerArray[0];
-            processResult();
-        });
-        document.getElementById("answerBButton").addEventListener("click", function () {
-            chosenAnswer = answerArray[1];
-            processResult();
-        });
-        document.getElementById("answerCButton").addEventListener("click", function () {
-            chosenAnswer = answerArray[2];
-            processResult();
-        });
-        document.getElementById("answerDButton").addEventListener("click", function () {
-            chosenAnswer = answerArray[3];
-            processResult();
-        });
-    }
-
-    //shuffling the answer Array
-    function shuffle(answerArray) {
-        var currentIndex = answerArray.length,
-            temporaryValue, randomIndex;
-
-        // While there remain elements to shuffle...
-        while (0 !== currentIndex) {
-
-            // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-
-            // And swap it with the current element.
-            temporaryValue = answerArray[currentIndex];
-            answerArray[currentIndex] = answerArray[randomIndex];
-            answerArray[randomIndex] = temporaryValue;
+        //making answer buttons once the 'answerSection' is made via making the card
+        function makeAnswerButtons() {
+            answerOptionsCard =
+                '<div>\
+                    <button type="button" id="answerAButton" class="btn btn-warning btn-block m-1">A: ' + answerArray[0] + '</button>\
+                    <button type="button" id="answerBButton" class="btn btn-warning btn-block m-1">B: ' + answerArray[1] + '</button>\
+                    <button type="button" id="answerCButton" class="btn btn-warning btn-block m-1">C: ' + answerArray[2] + '</button>\
+                    <button type="button" id="answerDButton" class="btn btn-warning btn-block m-1">D: ' + answerArray[3] + '</button> \
+                    </div>';
         }
 
-        return answerArray;
-    }
+        //adding event listeners once the answer buttons are made
+        function addAnswerListeners() {
+            document.getElementById("answerAButton").addEventListener("click", function () {
+                chosenAnswer = answerArray[0];
+                processResult();
+            });
+            document.getElementById("answerBButton").addEventListener("click", function () {
+                chosenAnswer = answerArray[1];
+                processResult();
+            });
+            document.getElementById("answerCButton").addEventListener("click", function () {
+                chosenAnswer = answerArray[2];
+                processResult();
+            });
+            document.getElementById("answerDButton").addEventListener("click", function () {
+                chosenAnswer = answerArray[3];
+                processResult();
+            });
+        }
 
-
-
-    //making the game
+    //making the data for array of beers
 
     //piccking a random beer out of the list
     function pickRandomBeer() {
@@ -167,34 +144,71 @@
 
         //putting the random beer in the answer array which also resets it
         answerArray = [
-            currentBeer.type
+            currentBeer.type, "", "", ""
         ];
+        //making a sub array with only styles from that country/region
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== currentBeer.type;
         });
 
         //picking a random beer 1, adding it to the answer buttons, then removing it from the choices
         randomBeer1 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
-        answerArray.push(randomBeer1.type);
+        if (randomBeer1 !== null) {
+            answerArray[1] = randomBeer1.type;
+        } else {
+            console.log("retry to get randomBeer1")
+            makeAnswerArray()
+        }
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer1.type;
         });
 
         //picking a random beer 2, adding it to the answer buttons, then removing it from the choices
         randomBeer2 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
-        answerArray.push(randomBeer2.type);
+        if (randomBeer1 !== null) {
+            answerArray[2] = randomBeer2.type;
+        } else {
+            console.log("retry to get randomBeer2")
+            makeAnswerArray()
+        }
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer2.type;
         });
 
         //picking a random beer, adding it to the answer buttons (no need to remove it as not picking more)
-        randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)]
-        answerArray.push(randomBeer3.type);
+        randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)] 
+        if (randomBeer1 !== null) {
+            answerArray[3] = randomBeer3.type;
+        } else {
+            console.log("retry to get randomBeer3")
+            makeAnswerArray()
+        }
         //shuffling the 4 answers
         shuffle(answerArray);
         console.log(answerArray);
         makeAnswerButtons();
     }
+
+        //shuffling the answer Array using the Fisher-Yates Algorithm
+        function shuffle(answerArray) {
+            var currentIndex = answerArray.length,
+                temporaryValue, randomIndex;
+    
+            // While there remain elements to shuffle...
+            while (0 !== currentIndex) {
+    
+                // Pick a remaining element...
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
+    
+                // And swap it with the current element.
+                temporaryValue = answerArray[currentIndex];
+                answerArray[currentIndex] = answerArray[randomIndex];
+                answerArray[randomIndex] = temporaryValue;
+            }
+    
+            return answerArray;
+        }
 
     //first question
     document.getElementById("navbardiv").innerHTML = "";
@@ -236,10 +250,9 @@
 
     function processResult() {
         if (chosenAnswer == currentBeer.type) {
-            console.log("correct");
             score += 1;
             turn += 1;
-            console.log("Coorect: " + score + " Turn: " + turn)
+            console.log("Correct! Score = Correct: " + score + " Turn: " + turn)
             //display for a correct answer
             document.getElementById("contentdiv").innerHTML =
                 '<div class="card-columns mt-2"> \
@@ -256,24 +269,15 @@
                 </div> \
             </div>';
             setTimeout(function () {
-                if (turn < 11) {
+                if (turn < 10) {
                     newQuestion();
                 } else {
-                    document.getElementById("contentdiv").innerHTML =
-                    '<div class="card-columns mt-2"> \
-                        <div class="card border-secondary bg-primary text-center"> \
-                            <div class="card-body"> \
-                                <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
-                                <h4 class="text-center m-0"> Game Over!! </h4>\
-                            </div> \
-                        </div> \
-                    </div>';
+                    endGame();
                 }
             }, 2500);
         } else {
-            console.log("wrong");
             turn += 1;
-            console.log("Coorect: " + score + " Turn: " + turn)
+            console.log("Wrong! Score = Correct: " + score + " Turn: " + turn)
             //display for a wrong guess
             document.getElementById("contentdiv").innerHTML =
                 '<div class="card-columns mt-2"> \
@@ -291,20 +295,31 @@
             </div> \
         </div>';
             setTimeout(function () {
-                if (turn < 11) {
+                if (turn < 10) {
                     newQuestion();
                 } else {
-                    document.getElementById("contentdiv").innerHTML =
-                        '<div class="card-columns mt-2"> \
-                            <div class="card border-secondary bg-primary text-center"> \
-                                <div class="card-body"> \
-                                    <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
-                                    <h4 class="text-center m-0"> Game Over!! </h4>\
-                                </div> \
-                            </div> \
-                        </div>';
+                    endGame();
                 }
 
             }, 2500);
         }
     };
+
+    function endGame() {
+        document.getElementById("contentdiv").innerHTML =
+        '<div class="card-columns mt-2"> \
+            <div class="card border-secondary bg-primary text-center"> \
+                <div class="card-body"> \
+                    <h4 class="text-center m-0"> Game Over!! </h4>\
+                    <h4 class="text-center m-0"> Your Score: ' + score + '/' + turn + ' </h4>\
+                    <h4 class="text-center m-0"> (comment on score) </h4>\
+                    <button type="button" id="replayButton" class="btn btn-warning btn-block m-1">Play Again?</button> \
+                </div> \
+            </div> \
+        </div>';
+        document.getElementById("replayButton").addEventListener("click", function () {
+            turn = 0;
+            score = 0;
+            newQuestion();
+        });
+    }
