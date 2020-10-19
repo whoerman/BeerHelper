@@ -75,7 +75,25 @@
 
             ///formatting the profile question card
             function makeProfileQuestionCard() {
-                profileQuestionCard =
+                if (beerData[i].alcohol.lowerdesc === beerData[i].alcohol.higherdesc ) {
+                    profileQuestionCard =
+                    '<div class="card-columns mt-2"> \
+                        <div class="card border-secondary text-center"> \
+                            <div class="card-body"> \
+                                <h4 class="text-center m-0"> Match the Profile: </h4>\
+                                <p class="text-center m-0"><em>' + beerData[i].country + '</em></p>\
+                                <img class="card-img-sidebar float-right" src="./assets/images/beerpics/' + beerData[i].image + '" alt="' + beerData[i].type + ' picture"> \
+                                <h6 class="card-title">Color: ' + beerData[i].color.light + ' to ' + beerData[i].color.dark + ' (' + beerData[i].color.lightSRM + ' to ' + beerData[i].color.darkSRM + ' SRM)</h6>\
+                                <h6 class="card-title">' + beerData[i].bitter.type + ' Bitterness (' + beerData[i].bitter.lowibu + ' to ' + beerData[i].bitter.highibu + ' IBU)</h6>\
+                                <h6 class="card-title">' + beerData[i].alcohol.lowerdesc + ' Alcohol </h6>\
+                                <h6 class="card-title">(' + beerData[i].alcohol.lowerabv + '% to ' + beerData[i].alcohol.higherabv + '% ABV)</h6>\
+                                <h6 class="text-center m-0"><em> Hint: ' + beerData[i].country + '</em></h6>\
+                                <div id="answerSection">' + answerOptionsCard + '</div>\
+                            </div> \
+                        </div> \
+                    </div>';
+                } else {
+                    profileQuestionCard =
                     '<div class="card-columns mt-2"> \
                         <div class="card border-secondary text-center"> \
                             <div class="card-body"> \
@@ -91,6 +109,7 @@
                             </div> \
                         </div> \
                     </div>';
+                }
                 document.getElementById("contentdiv").innerHTML += profileQuestionCard;
             }
 
@@ -153,7 +172,7 @@
 
         //picking a random beer 1, adding it to the answer buttons, then removing it from the choices
         randomBeer1 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
-        if (randomBeer1 !== null) {
+        if (randomBeer1 !== undefined) {
             answerArray[1] = randomBeer1.type;
         } else {
             console.log("retry to get randomBeer1")
@@ -165,7 +184,7 @@
 
         //picking a random beer 2, adding it to the answer buttons, then removing it from the choices
         randomBeer2 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
-        if (randomBeer1 !== null) {
+        if (randomBeer1 !== undefined) {
             answerArray[2] = randomBeer2.type;
         } else {
             console.log("retry to get randomBeer2")
@@ -177,7 +196,7 @@
 
         //picking a random beer, adding it to the answer buttons (no need to remove it as not picking more)
         randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)] 
-        if (randomBeer1 !== null) {
+        if (randomBeer1 !== undefined) {
             answerArray[3] = randomBeer3.type;
         } else {
             console.log("retry to get randomBeer3")
@@ -254,7 +273,23 @@
             turn += 1;
             console.log("Correct! Score = Correct: " + score + " Turn: " + turn)
             //display for a correct answer
-            document.getElementById("contentdiv").innerHTML =
+            if (beerData[i].alcohol.lowerdesc === beerData[i].alcohol.higherdesc ) {
+                document.getElementById("contentdiv").innerHTML =
+                '<div class="card-columns mt-2"> \
+                <div class="card border-secondary bg-success text-center"> \
+                <div class="card-body"> \
+                    <h5 class="text-center m-0"> Correct!!      Score: ' + score + '/' + turn + '</h5>\
+                    <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
+                    <img class="card-img-sidebar float-right m-2" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
+                    <h6 class="card-title">Color: ' + currentBeer.color.light + ' to ' + currentBeer.color.dark + ' (' + currentBeer.color.lightSRM + ' to ' + currentBeer.color.darkSRM + ' SRM)</h6>\
+                    <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
+                    <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' Alcohol </h6>\
+                    <h6 class="card-title">(' + currentBeer.alcohol.lowerabv + '% to ' + currentBeer.alcohol.higherabv + '% ABV)</h6>\
+                </div> \
+                </div> \
+            </div>';
+            } else {
+                document.getElementById("contentdiv").innerHTML =
                 '<div class="card-columns mt-2"> \
                 <div class="card border-secondary bg-success text-center"> \
                 <div class="card-body"> \
@@ -268,6 +303,8 @@
                 </div> \
                 </div> \
             </div>';
+            }
+
             setTimeout(function () {
                 if (turn < 10) {
                     newQuestion();
@@ -279,7 +316,24 @@
             turn += 1;
             console.log("Wrong! Score = Correct: " + score + " Turn: " + turn)
             //display for a wrong guess
-            document.getElementById("contentdiv").innerHTML =
+            if (beerData[i].alcohol.lowerdesc === beerData[i].alcohol.higherdesc ) { 
+                document.getElementById("contentdiv").innerHTML =
+                '<div class="card-columns mt-2"> \
+                <div class="card border-secondary bg-danger text-center"> \
+            <div class="card-body"> \
+                <h4 class="text-center m-0"> Wrong!!      Score: ' + score + '/' + turn + ' </h4>\
+                <h4 class="text-center m-0"> The correct answer was: </h4>\
+                <h4 class="text-center m-0">' + currentBeer.type + '</h4>\
+                <img class="card-img-sidebar float-right m-2" src="./assets/images/beerpics/' + currentBeer.image + '" alt="' + currentBeer.type + ' picture"> \
+                <h6 class="card-title">Color: ' + currentBeer.color.light + ' to ' + currentBeer.color.dark + ' (' + currentBeer.color.lightSRM + ' to ' + currentBeer.color.darkSRM + ' SRM)</h6>\
+                <h6 class="card-title">' + currentBeer.bitter.type + ' Bitterness (' + currentBeer.bitter.lowibu + ' to ' + currentBeer.bitter.highibu + ' IBU)</h6>\
+                <h6 class="card-title">' + currentBeer.alcohol.lowerdesc + ' Alcohol </h6>\
+                <h6 class="card-title">(' + currentBeer.alcohol.lowerabv + '% to ' + currentBeer.alcohol.higherabv + '% ABV)</h6>\
+            </div> \
+            </div> \
+        </div>';
+            } else {
+                document.getElementById("contentdiv").innerHTML =
                 '<div class="card-columns mt-2"> \
                 <div class="card border-secondary bg-danger text-center"> \
             <div class="card-body"> \
@@ -294,6 +348,8 @@
             </div> \
             </div> \
         </div>';
+            }
+
             setTimeout(function () {
                 if (turn < 10) {
                     newQuestion();
