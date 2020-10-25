@@ -114,36 +114,64 @@
             }
 
 
+
         //making answer buttons once the 'answerSection' is made via making the card
         function makeAnswerButtons() {
             answerOptionsCard =
                 '<div>\
-                    <button type="button" id="answerAButton" class="btn btn-warning btn-block m-1">A: ' + answerArray[0] + '</button>\
-                    <button type="button" id="answerBButton" class="btn btn-warning btn-block m-1">B: ' + answerArray[1] + '</button>\
-                    <button type="button" id="answerCButton" class="btn btn-warning btn-block m-1">C: ' + answerArray[2] + '</button>\
-                    <button type="button" id="answerDButton" class="btn btn-warning btn-block m-1">D: ' + answerArray[3] + '</button> \
+                    <button type="button" id="answer0Button" class="btn btn-warning btn-block m-1">A: ' + answerArray[0] + '</button>\
+                    <button type="button" id="answer1Button" class="btn btn-warning btn-block m-1">B: ' + answerArray[1] + '</button>\
+                    <button type="button" id="answer2Button" class="btn btn-warning btn-block m-1">C: ' + answerArray[2] + '</button>\
+                    <button type="button" id="answer3Button" class="btn btn-warning btn-block m-1">D: ' + answerArray[3] + '</button> \
                     </div>';
         }
 
         //adding event listeners once the answer buttons are made
         function addAnswerListeners() {
-            document.getElementById("answerAButton").addEventListener("click", function () {
+            document.getElementById("answer0Button").addEventListener("click", function () {
                 chosenAnswer = answerArray[0];
                 processResult();
             });
-            document.getElementById("answerBButton").addEventListener("click", function () {
+            document.getElementById("answer1Button").addEventListener("click", function () {
                 chosenAnswer = answerArray[1];
                 processResult();
             });
-            document.getElementById("answerCButton").addEventListener("click", function () {
+            document.getElementById("answer2Button").addEventListener("click", function () {
                 chosenAnswer = answerArray[2];
                 processResult();
             });
-            document.getElementById("answerDButton").addEventListener("click", function () {
+            document.getElementById("answer3Button").addEventListener("click", function () {
                 chosenAnswer = answerArray[3];
                 processResult();
             });
         }
+
+        // //adding event listeners once the answer buttons are made
+        // function addAnswerListeners() {
+        //     for (j=0; j<4; j++) {
+        //         document.getElementById("answerAButton").addEventListener("click", function () {
+        //             chosenAnswer = answerArray[0];
+        //             processResult();
+        //         });
+        //     }
+
+        //     document.getElementById("answerAButton").addEventListener("click", function () {
+        //         chosenAnswer = answerArray[0];
+        //         processResult();
+        //     });
+        //     document.getElementById("answerBButton").addEventListener("click", function () {
+        //         chosenAnswer = answerArray[1];
+        //         processResult();
+        //     });
+        //     document.getElementById("answerCButton").addEventListener("click", function () {
+        //         chosenAnswer = answerArray[2];
+        //         processResult();
+        //     });
+        //     document.getElementById("answerDButton").addEventListener("click", function () {
+        //         chosenAnswer = answerArray[3];
+        //         processResult();
+        //     });
+        // }
 
     //making the data for array of beers
 
@@ -172,39 +200,48 @@
 
         //picking a random beer 1, adding it to the answer buttons, then removing it from the choices
         randomBeer1 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
-        if (randomBeer1 !== undefined) {
-            answerArray[1] = randomBeer1.type;
+        //if don't get a random beer back then retry
+        if (randomBeer1 == undefined || randomBeer1 == null) {
+            console.log("failed beer 1");
+            document.getElementById("contentdiv").innerHTML = "";
+            newQuestion();
         } else {
-            console.log("retry to get randomBeer1")
-            makeAnswerArray()
+            answerArray[1] = randomBeer1.type;
         }
+        //take the random beer chosen out of the array for choices
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer1.type;
         });
 
         //picking a random beer 2, adding it to the answer buttons, then removing it from the choices
         randomBeer2 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)];
-        if (randomBeer1 !== undefined) {
-            answerArray[2] = randomBeer2.type;
+        //if don't get a random beer back then retry, if Ok put in array
+        if (randomBeer2 == undefined || randomBeer2 == null) {
+            console.log("failed beer 2");
+            document.getElementById("contentdiv").innerHTML = "";
+            newQuestion();
         } else {
-            console.log("retry to get randomBeer2")
-            makeAnswerArray()
+            answerArray[2] = randomBeer2.type;
         }
+        //take the random beer chosen out of the array for choices
         subBeerCountryArray = subBeerCountryArray.filter(function (randomBeer) {
             return randomBeer.type !== randomBeer2.type;
         });
 
         //picking a random beer, adding it to the answer buttons (no need to remove it as not picking more)
         randomBeer3 = subBeerCountryArray[Math.floor(Math.random() * subBeerCountryArray.length)] 
-        if (randomBeer1 !== undefined) {
-            answerArray[3] = randomBeer3.type;
+        //if don't get a random beer back then retry
+        if (randomBeer3 == undefined || randomBeer3 == null) {
+            console.log("failed beer 3");
+            document.getElementById("contentdiv").innerHTML = "";
+            newQuestion();
         } else {
-            console.log("retry to get randomBeer3")
-            makeAnswerArray()
+            answerArray[3] = randomBeer3.type;
         }
-        //shuffling the 4 answers
+        //shuffling the 4 answers using the Fisher-Yates Algorithm
         shuffle(answerArray);
         console.log(answerArray);
+        //once the array is shuffled then make the buttons
         makeAnswerButtons();
     }
 

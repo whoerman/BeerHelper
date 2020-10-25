@@ -25,9 +25,12 @@ let beerData = [{
     relatedstyles: [
         "Fruit Lambic", "Flander's Red", "Lambic"
     ],
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    yeast: "Spontaneous fermentation",
+    trivia: [
+        "This style is made by blending young (usually around a year old) and old (2-3 years old) lambics then bottle-conditioning them for their secondary fermentation.",
+        "As a lambic-style beer, the sour profile of this style is one of its crowning features other than its spritzy carbonation",
+        "This style was showcased at the 1897 World’s Fair in Brussels and started to gain some popularity outside of the area after having been a relatively localized production.",
+    ],
 }, {
     type: 'Fruit Lambic',
     image: 'fruitlambic.jpg',
@@ -53,11 +56,13 @@ let beerData = [{
     history: 'The most common beers of this style are Kriek (aged with cherries) and Framboise (aged with raspberries).',
     relatedstyles: [
         "Gueuze", "Flander's Red", "Lambic"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "Spontaneous fermentation",
+    trivia: [
+        "Often known as cassis, framboise, kriek, or peche, this style takes on the color and flavor of the fruit it is brewed with.",
+        "Sourness is an important part of the flavor profile, though sweetness from fruit may diminish the perceived intensity.",
+        "Through the late 1800s, this style was still relatively uncommon due to the difficulty of controlling the fermentation and having bottles explode. ",
+    ],
 }, {
     type: 'Flanders Red',
     image: 'flandersred.jpg',
@@ -83,11 +88,14 @@ let beerData = [{
     history: 'Asscoaited with west Flanders in Belgium, these beers are often produced by blending yound and aged beers.',
     relatedstyles: [
         "Gueuze", "Fruit Lambic", "Oud Bruin"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "Brettanomyces",
+
+    trivia: [
+        "Originally derived from early Porters, but was open fermented using sour yeasts that are native to certain regions in Belgium.",
+        "Fermented with organisms other than Saccharomyces cerevisiae, especially Lactobacillus, which produces a sour character attributable to lactic acid. ",
+        "Red malt is used to give this beer its colour and the matured beer is often blended with a younger batch before bottling to balance and round the character.",
+    ],
 }, {
     type: 'Belgian Dubbel',
     image: 'belgiandubbel.jpg',
@@ -113,11 +121,13 @@ let beerData = [{
     history: 'Produced since the mid-1800s, many Trappist and abbey breweries produce a beer in this style.',
     relatedstyles: [
         "Belgian Dark Strong Ale"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "This style is considered Trappist only if the monks either brew it themselves or supervise the production of the beer in question.",
+        "This style is a Trappist beer originally made by monks of Order of Cistercians of the Strict Observance. ",
+        "Beers in this style not directly made by monks are often referred to as Abbey beers.",
+    ],
 }, {
     type: 'Belgian Tripel',
     image: 'belgiantripel.jpg',
@@ -143,7 +153,14 @@ let beerData = [{
     history: 'First brewed in the early 1900s. Many trappist and abbey breweries produce a strong beer in this style.',
     relatedstyles: [
         "Belgian Blond Ale", "Belgian Golden Strong Ale"
-    ]
+    ],
+    yeast: "",
+
+    trivia: [
+        "This style is typically made with three times the malt in the wort and therefore the outcome is a higher ABV. ",
+        "n 1933, Westmalle brewery released a beer under the name Superbier, which later the renamed this style.",
+        "Traditional beers of this style are bottle-conditioned and may exhibit slight yeast haze, but the yeast should not be intentionally roused.",
+    ],
 },    {
     type: 'Belgian Blond Ale',
     image: 'belgianblondale.jpg',
@@ -169,11 +186,13 @@ let beerData = [{
     history: 'Developed to compete with Pilsner-style beers. Often shows slightly less fermentation character than most other Belgian styles.',
     relatedstyles: [
         "Belgian Tripel", "Belgian Golden Strong Ale"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ], 
+    yeast: "",
+    trivia: [
+        "When lager swept through much of Europe like a firestorm at the turn of the 18th century, Belgian brewers developed this style to get creative if they were going to compete and stay in business. ",
+        'Duvel ("devil") is the archetypal Belgian of this style, and one of the most popular bottled beers in the country as well as being well known internationally.',
+        "Sticking to their roots the brewers used the same winsome and distinctly Belgian ale yeasts, but changed the grain bill to include the paler pilsner malt; thus creating a new style of beer.",
+    ],
 }, {
     type: 'Belgian Golden Strong Ale',
     image: 'belgiangoldenstrongale.jpg',
@@ -199,11 +218,13 @@ let beerData = [{
     history: 'Commerical examples often use names that reference the devil. Style originated in the mid 20th-century.',
     relatedstyles: [
         "Belgian Blond", "Belgian Tripel"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "The Belgian style is fruity, complex and often on the higher end of the ABV spectrum, yet are approachable to many different palates. ",
+        "What sets this style apart is a much higher alcohol content that can range from deliciously hidden to devastatingly present.",
+        "A bit sweeter and not as bitter. Often has an almost lager-like character, which gives it a cleaner profile in comparison to the other styles.",
+    ],
 }, {
     type: 'Saison',
     image: 'saison.jpg',
@@ -229,11 +250,13 @@ let beerData = [{
     history: 'An artisanal Belgian ale fermented with a distinctive yeast.',
     relatedstyles: [
         "Biere de Garde", "Witbier"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "As a beer style, this began as a pale ale brewed in the cooler, less active months in farmhouses in Wallonia, the French-speaking region of Belgium, and stored for drinking in the summer months.",
+        "This beer was brewed in the cool months to prevent summer spoilage and to keep farm workers busy in the off season.",
+        "Historically, This style did not share enough identifiable characteristics to pin them down as a specific style, but rather were a group of refreshing summer ales made by farmers.",
+    ],
 }, {
     type: 'Witbier',
     image: 'witbier.jpg',
@@ -259,11 +282,13 @@ let beerData = [{
     history: 'A Belgian ale with a long history, this style died out in the 1950s, only to be revived in the 1960s by Pierre Celis. Popularity has since grown immensely.',
     relatedstyles: [
         "American Wheat Beer", "Gose", "Saison", "Weissbier", "White IPA"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],  
+    yeast: "",
+    trivia: [
+        "This style, also known as bière blanche in the French speaking part of Belgium, an be traced to sustenance brewing, either on the family farm or in monasteries.",
+        "The farming communities and monasteries in the province of Broadbent, and particularly around the cities of Leuven and Hoegaarden, became well known for this style.",
+        "In the mid 20th century, lagers lead to the downfall of this style, and in 1957, the last Hoegaarden brewery closed shop.",
+    ],
 }, {
     type: 'Best Bitter',
     image: 'bestbitter.jpg',
@@ -289,11 +314,11 @@ let beerData = [{
     history: 'A member of the British Bitters family, this style descended from 19th century India Pale Ale.',
     relatedstyles: [
         "Ordinary Bitter", "Scottish Heavy", "Strong Bitter", "English IPA"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ], 
+    yeast: "",
+    trivia: [
+        "",
+    ],
 }, {
     type: 'English IPA',
     image: 'englishipa.jpg',
@@ -319,11 +344,11 @@ let beerData = [{
     history: 'Pale ale brewed in English, Scottish & Irish that became extremely popular in the 1800s as an export beer for the Indian market. Associated with Burton breweries and their high sulfate water.',
     relatedstyles: [
         "American IPA", "Best Bitter", "English Barleywine", "Ordinary Bitter", "Strong Bitter"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'British Brown Ale',
     image: 'britishbrownale.jpg',
@@ -349,11 +374,11 @@ let beerData = [{
     history: 'A moderate strength dark ale, lacking the heavily roasted flavors of porter or stout.',
     relatedstyles: [
         "American Brown Ale", "Dark Mild", "English PorterS"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Sweet Stout',
     image: 'sweetstout.jpg',
@@ -379,11 +404,11 @@ let beerData = [{
     history: 'First marketed in the early 1900s as a nutritious drink for nursing mothers.',
     relatedstyles: [
         "Irish Stout", "Oatmeal Stout"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Oatmeal Stout',
     image: 'oatmealstout.jpg',
@@ -435,11 +460,11 @@ let beerData = [{
     history: 'Similar in formulation and balance to the Scottish ale styles, but considerably stronger. This style may also be called Scottish Ale, 90 shilling (90/-) or 120 shilling (120/-).',
     relatedstyles: [
         "Scottish Light", "Scottish Heavy", "Scottish Export"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Irish Stout',
     image: 'irishstout.jpg',
@@ -465,11 +490,11 @@ let beerData = [{
     history: 'Originally a stronger version of porter, this is now the more varied and well-known style family. It is sometimes labeled as Dry Stout.',
     relatedstyles: [
         "Foreign Extra Stout", "Imperial Stout", "Sweet Stout", "Oatmeal Stout"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'German Pils',
     image: 'germanpils.jpg',
@@ -495,11 +520,11 @@ let beerData = [{
     history: 'German interpretation of the orginal pilsner from Bohemia (Czech Premium Pale Lager). This style is generally paler, lighter bodied, and less malty than Czech Premium Pale Lager.',
     relatedstyles: [
         "Czech Premium Pale Lager", "Kölsch", "Munich Helles"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Munich Helles',
     image: 'munichhelles.jpg',
@@ -525,11 +550,11 @@ let beerData = [{
     history: 'Formulated in the 1890s to compete with Pils-style beers. Today it is the everyday drinking beer of Bavaria.',
     relatedstyles: [
         "Festbier", "German Pils", "International Pale Lager"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Czech Premium Pale Lager',
     image: 'czechpremiumpalelager.jpg',
@@ -555,11 +580,11 @@ let beerData = [{
     history: 'This golden lager is from the Czech Republic city of Pilsen, first brewed in 1842.',
     relatedstyles: [
         "German Pils"
-    ]
-,
-    trivia1: "In 1842, the citizens of western Bohemia became grew unhappy with the quality of the beer, decided to build Bürger Brauerei (Citizens’ Brewery) and hired Bavarian brewmaster Josef Groll to brew this syle.",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "In 1842, the citizens of western Bohemia became grew unhappy with the quality of the beer, decided to build Bürger Brauerei (Citizens’ Brewery) and hired Bavarian brewmaster Josef Groll to brew this syle.",
+    ],
 }, {
     type: 'Märzen',
     image: 'marzen.jpg',
@@ -585,11 +610,11 @@ let beerData = [{
     history: '"March" beers were once brewed strong for long summer storage. In 1810 this style was used to celebrate the royal wedding that has become the modern-day Oktoberfest.',
     relatedstyles: [
         "Festbier", "Munich Dunkel", "Rauchbier", "Vienna Lager"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Helles Bock',
     image: 'hellesbock.jpg',
@@ -615,11 +640,11 @@ let beerData = [{
     history: 'A pale version of bock made to celebrate Spring, this beer is also referred to as Maibock.',
     relatedstyles: [
         "Doppelbock", "Dunkles Bock"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Doppelbock',
     image: 'doppelbock.jpg',
@@ -645,11 +670,11 @@ let beerData = [{
     history: 'This beer was originally brewed by monks as liquid bread for sustenance during fasts.',
     relatedstyles: [
         "Dunkles Bock", "Eisbock", "Helles Bock"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Weissbier',
     image: 'weissbier.jpg',
@@ -675,11 +700,11 @@ let beerData = [{
     history: 'This beer has fluctuated in popularity over several centuries but today is quite popular in Bavaria and beyond. Brewed with at least 50% malted wheat. Fermented with a unique yeast strain that produces banana and clove flavors.',
     relatedstyles: [
         "American Wheat Beer", "Dunkles Weisbier", "Weizenbock", "Witbier"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Berliner Weisse',
     image: 'berlinerweisse.jpg',
@@ -705,11 +730,11 @@ let beerData = [{
     history: 'Historically brewed primarily in and around Berlin, today it is more commonly produced in American craft breweries.',
     relatedstyles: [
         "Gose"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Gose',
     image: 'gose.jpg',
@@ -735,11 +760,11 @@ let beerData = [{
     history: 'Specialty style brewed historically in Leipzig. Revived in Germany in the late 20th century and now most commonly produced by American craft breweries.',
     relatedstyles: [
         "Berliner Weisse", "Witbier"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Kölsch',
     image: 'kolsch.jpg',
@@ -765,11 +790,11 @@ let beerData = [{
     history: 'This beer is classically brewed in Cologne, Germany using ale yeast at cooler temperatures.',
     relatedstyles: [
         "Altbier", "German Pils"
-    ]
-,
-    trivia1: "Köbes (special waiters dressed in blue aprons) serve this fantastic ale one after another until you signal you have had enough by placing your coaster on top of your glass.",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "Köbes (special waiters dressed in blue aprons) serve this fantastic ale one after another until you signal you have had enough by placing your coaster on top of your glass.",
+    ],
 }, {
     type: 'American Light Lager',
     image: 'americanlightlager.jpg',
@@ -795,11 +820,11 @@ let beerData = [{
     history: 'First brewed in the mid-1900s, this style achieved widespread popularity through targeted marketing in the 1970s.',
     relatedstyles: [
         "American Lager", "Cream Ale", "International Pale Lager"
-    ]
-,
-    trivia1: "The three top-selling beers in the US, by Budweiser and Miller Coors, are of what style?",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "The three top-selling beers in the US, by Budweiser and Miller Coors, are of what style?",
+    ],
 }, {
     type: 'American Wheat Beer',
     image: 'americanwheatbeer.jpg',
@@ -825,11 +850,11 @@ let beerData = [{
     history: "This is the American craft brewers' interpretation of German wheat beer",
     relatedstyles: [
         "American Blonde Ale", "Weissbier", "Witbier"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Blonde Ale',
     image: 'americanblondeale.jpg',
@@ -855,11 +880,11 @@ let beerData = [{
     history: 'A lightly flavored alt-malt beer.',
     relatedstyles: [
         "American Wheat Beer"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Pale Ale',
     image: 'americanpaleale.jpg',
@@ -885,11 +910,11 @@ let beerData = [{
     history: 'A classic beer of the American craft beer movement.',
     relatedstyles: [
         "American Amber Ale", "American IPA"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Amber Ale',
     image: 'americanamberale.jpg',
@@ -915,11 +940,11 @@ let beerData = [{
     history: 'Developed as a variation of American Pale Ale, this style is sometimes referred to as "Red Ale"',
     relatedstyles: [
         "American Pale Ale", "California Common"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American IPA',
     image: 'americanipa.jpg',
@@ -945,11 +970,11 @@ let beerData = [{
     history: 'The original "pale" ale of English, Scottish & Irish, commonly exported to India and later adopted for domestic consumption. The first American interpretations were brewed in the 1970s, and the style found widespread popularity beginning in the 1990s.',
     relatedstyles: [
         "American Pale Ale", "Black IPA", "Double IPA", "English IPA", "White IPA"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Double IPA',
     image: 'doubleipa.jpg',
@@ -975,11 +1000,11 @@ let beerData = [{
     history: 'This style was born in the mid 1990s from the increasing popularity of hop-forward IPAs.',
     relatedstyles: [
         "American IPA", "American Barleywine"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Brown Ale',
     image: 'americanbrownale.jpg',
@@ -1005,11 +1030,11 @@ let beerData = [{
     history: 'A classic beer of the American craft beer movement, loosely based on British Brown Ale but with higher hopping rate.',
     relatedstyles: [
         "British Brown Ale"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Porter',
     image: 'americanporter.jpg',
@@ -1035,11 +1060,11 @@ let beerData = [{
     history: 'Porter history extends back to the early 1700s, but this more modern version includes black patent malt, which dates form about 1817. Porters made without this are known as English Porter.',
     relatedstyles: [
         "American Stout", "Baltic Porter", "English Porter", "Foreign Extra Stout"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Stout',
     image: 'americanstout.jpg',
@@ -1065,11 +1090,11 @@ let beerData = [{
     history: 'An American variation of Foreign Extra Stout.',
     relatedstyles: [
         "American Porter", "Black IPA", "Foreign Extra Stout", "Imperial Stout"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Imperial Stout',
     image: 'imperialstout.jpg',
@@ -1095,11 +1120,11 @@ let beerData = [{
     history: 'Originally born from the British porter tradition, this hogh alcohol dark ale was very popular with the Russian Imperial Court in the early 1800s. Today, it is most commonly produced by American craft breweries.',
     relatedstyles: [
         "American Stout", "Baltic Porter", "Foreign extra Stout", "Irish Stout"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'American Barleywine',
     image: 'americanbarleywine.jpg',
@@ -1125,11 +1150,11 @@ let beerData = [{
     history: 'Inspired by English Barleywine, though brewed with American ingredients and a substantially higher hopping rate.',
     relatedstyles: [
         "Double IPA", "English Barleywine"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'California Common',
     image: 'californiacommon.jpg',
@@ -1155,11 +1180,11 @@ let beerData = [{
     history: 'This most flavorful of indigenous American beer styles originated as "steam beer" in the late 1800s.',
     relatedstyles: [
         "American Amber Ale"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'International Pale Lager',
     image: 'internationalpalelager.jpg',
@@ -1185,11 +1210,11 @@ let beerData = [{
     history: 'Similar to American Lagers, though often brewed with a lower portion of adjuncts, and may be all malt.',
     relatedstyles: [
         "American Lager", "American Light Lager", "Munich Helles"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Lambic',
     image: 'lambic.jpg',
@@ -1215,11 +1240,11 @@ let beerData = [{
     history: 'Spontaneously fermented ale from the Senne River valley region, served uncarbonated and rarely found outside of Belgium.',
     relatedstyles: [
         "Fruit Lambic", "Gueuze"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Oud Bruin',
     image: 'oudbruin.jpg',
@@ -1245,11 +1270,11 @@ let beerData = [{
     history: 'Asociated with East Flanders, this beer is typically soured in stainless steel, rather than wood.',
     relatedstyles: [
         "Flander's Red Ale"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Belgian Dark Strong Ale',
     image: 'belgiandarkstrongale.jpg',
@@ -1275,11 +1300,11 @@ let beerData = [{
     history: 'A bit of a catch-all category for strong, dark Belgian beers, this is where so-called "quadrupel" beers are calssified.',
     relatedstyles: [
         "Belgian Dubbel"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Belgian Pale Ale',
     image: 'belgianpaleale.jpg',
@@ -1305,11 +1330,11 @@ let beerData = [{
     history: 'Modern interpretations of the style show British influences and date back to the mid-1900s.',
     relatedstyles: [
         "Strong Bitter"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Biere de Garde',
     image: 'bieredegarde.jpg',
@@ -1335,11 +1360,11 @@ let beerData = [{
     history: "Traditionally produced in France near it's border with Belgium. Classic producers often make blonde, amber, and brown variations.",
     relatedstyles: [
         "Siason"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Ordinary Bitter',
     image: 'ordinarybitter.jpg',
@@ -1365,11 +1390,13 @@ let beerData = [{
     history: 'The lowest alcohol member of the bitter family. Made for drinking in volume and often the best selling beer in Bristish pubs.',
     relatedstyles: [
         "Best Bitter", "English IPA", "Strong Bitter"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "During the 20th century, this was the most popular type of beer sold on tap in UK pubs; some consider it “the national drink of England.”",
+"Originally a draught ale served very fresh under no pressure (gravity or hand pump only) at cellar temperatures.",
+"The lightest of the bitters. Strength up to 4.1% abv. A number of British beers with the name India Pale Ale will be found in this group,",
+    ],
 }, {
     type: 'Strong Bitter',
     image: 'strongbitter.jpg',
@@ -1395,11 +1422,13 @@ let beerData = [{
     history: 'The strongest of the three bitter ale styles.',
     relatedstyles: [
         "Belgian Pale Ale", "Best Bitter", "English IPA", "Ordinary Bitter"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "Strength of 4.8% abv and over. Also known as Extra Special Bitter, or in Canada and the US, ESB.",
+        "Can be seen as a higher-gravity version of best bitters (although not necessarily “more premium” since best bitters are traditionally the brewer’s finest product).",
+        "ESB is a brand name in the UK owned by Fuller Brewing and first brewed in 1971 as a replacement for a beer called Old Burton Extra.",  
+    ],
 }, {
     type: 'Dark Mild',
     image: 'darkmild.jpg',
@@ -1425,11 +1454,11 @@ let beerData = [{
     history: 'Historically, This style was a general name for fresh, unaged beer. Today, the name refers to a lower alcohol dark style ale.',
     relatedstyles: [
         "British Brownn Ale", "English Porter"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'English Porter',
     image: 'englishporter.jpg',
@@ -1455,11 +1484,11 @@ let beerData = [{
     history: 'Modern examples are the present-day descendants of the original, pre-roating drum porters, and is sometimes refered to as Brown Porter.',
     relatedstyles: [
         "American Porter", "British Brown Ale", "Dark Mild"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Foreign Extra Stout',
     image: 'foreignextrastout.jpg',
@@ -1485,11 +1514,11 @@ let beerData = [{
     history: 'Also sometimes known as "double stout", "export stout", or simply "foreign stout".',
     relatedstyles: [
         "Irish Stout", "American Porter", "American Stout", "Imperial Stout"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Old Ale',
     image: 'oldale.jpg',
@@ -1515,11 +1544,11 @@ let beerData = [{
     history: 'Traditionally aged at the brewery as a stock ale, much like early vatted porters. Today this beer is commonly a blend of fresh and stock ales.',
     relatedstyles: [
         "English Barleywine"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'English Barleywine',
     image: 'englishbarleywine.jpg',
@@ -1545,11 +1574,11 @@ let beerData = [{
     history: 'This sits atop the "ladder" of English plae ales, following a similar formulation to English IPA and bitter, but increased ABV and flavor intensity.',
     relatedstyles: [
         "American Barleywine", "English IPA", "Old Ale"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Scottish Light',
     image: 'scottishlight.jpg',
@@ -1575,11 +1604,11 @@ let beerData = [{
     history: 'Sometimes referred to as 60 Schilling (60/-).',
     relatedstyles: [
         "Ordinary Bitter", "Scottish Export", "Scottish Heavy", "Wee Heavy"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Scottish Heavy',
     image: 'scottishheavy.jpg',
@@ -1605,11 +1634,11 @@ let beerData = [{
     history: 'Sometimes referred to as 70 Shilling (70/-).',
     relatedstyles: [
         "Best Bitter", "Scottish Export", "Scottish Light", "Wee heavy"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Scottish Export',
     image: 'scottishexport.jpg',
@@ -1635,11 +1664,11 @@ let beerData = [{
     history: 'The strongest of the three scottish ales, sometimes referred to as 80 Shilling (80/-).',
     relatedstyles: [
         "Scottish Heavy", "Scottish Light", "Strong Bitter", "Wee Heavy"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Irish Red Ale',
     image: 'irishredale.jpg',
@@ -1665,11 +1694,11 @@ let beerData = [{
     history: 'This style typically gets its red color from the addition of a small amount of roasted barley.',
     relatedstyles: [
         "Scottish Export", "Strong Bitter"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Vienna Lager',
     image: 'viennalager.jpg',
@@ -1695,11 +1724,11 @@ let beerData = [{
     history: 'A close relative of Märzen, this beer is typically made with 100% Vienna malt rather than Munich malt.',
     relatedstyles: [
         "Märzen"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Festbier',
     image: 'festbier.jpg',
@@ -1725,11 +1754,11 @@ let beerData = [{
     history: "The beer associated with Munich's Oktoberfest celebration. Once identical to Märzen, this beer has become paler in recent years to appeal to consumer tastes.",
     relatedstyles: [
         "Märzen", "Munich Helles"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Munich Dunkel',
     image: 'munichdunkel.jpg',
@@ -1755,11 +1784,11 @@ let beerData = [{
     history: 'This dark lager was the everyday drinking beer of Bavaria until being overtaken by Munich Helles in the 20th century.',
     relatedstyles: [
         "Dunkles Bock", "Märzen"
-    ]
-,
-    trivia1: "Negro Modelo (brewd in mexico by Grupo Modelo) and Harpoon Dark (brewed in MA by Harppon) are suprisingly what style?",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        "Negro Modelo (brewd in Mexico by Grupo Modelo) and Harpoon Dark (brewed in MA by Harppon) are suprisingly what style?",
+    ],
 }, {
     type: 'Schwarzbier',
     image: 'schwarzbier.jpg',
@@ -1785,11 +1814,11 @@ let beerData = [{
     history: 'Meaning "black beer" in German, this style initially evolved as a darker variant of Munich Dunkel.',
     relatedstyles: [
         "Munich Dunkel"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Rauchbier',
     image: 'rauchbier.jpg',
@@ -1815,11 +1844,13 @@ let beerData = [{
     history: 'A specialty of Bamberg, this beer features intense smoky flavors from beechwood-smoked malt.',
     relatedstyles: [
         "Märzen"
-    ]
-,
-    trivia1: "Before Daniel Wheeler invented his drum kiln in 1818 and changed the course of brewing history forever, the only way to dry malt was directly over an open fire, often resulting in this style. ",
-    trivia2: "There are currently nine breweries within the city of Bamberg, and two of these have become synonymous with this traditional style — Bauerei Schlenkerla and Christian Merz Brauerei Spezial.",
-    trivia3: "Because drying malt over a fire has a long history, this style has probably been created for over 5000 years.",
+    ],
+    yeast: "",
+    trivia: [
+        "Before Daniel Wheeler invented his drum kiln in 1818 and changed the course of brewing history forever, the only way to dry malt was directly over an open fire, often resulting in this style. ",
+        "There are currently nine breweries within the city of Bamberg, and two of these have become synonymous with this traditional style — Bauerei Schlenkerla and Christian Merz Brauerei Spezial.",
+    "Because drying malt over a fire has a long history, this style has probably been created for over 5000 years.",
+    ],
 }, {
     type: 'Dunkles Bock',
     image: 'dunklesbock.jpg',
@@ -1845,11 +1876,13 @@ let beerData = [{
     history: 'Although "bock" translates directly to "goat", this style name comes from a corruption of Einbeck, the town in which the style originated.',
     relatedstyles: [
         "Doppelbock", "Helles Bock"
-    ]
-,
-    trivia1: "The style was a dark, malty, lightly hopped ale first brewed in the 14th century by German brewers in the Hanseatic town of Einbeck.",
-    trivia2: "This style is historically associated with special occasions, often religious festivals such as Christmas, Easter or Lent.",
-    trivia3: "Less alcohol and malty richness than a Doppelbock. Stronger malt flavors and higher alcohol than a Märzen. Richer, less attenuated, and less hoppy than a Czech Amber Lager. ",
+    ],
+    yeast: "",
+    trivia: [
+        "The style was a dark, malty, lightly hopped ale first brewed in the 14th century by German brewers in the Hanseatic town of Einbeck.",
+        "This style is historically associated with special occasions, often religious festivals such as Christmas, Easter or Lent.",
+        "Less alcohol and malty richness than a Doppelbock. Stronger malt flavors and higher alcohol than a Märzen. Richer, less attenuated, and less hoppy than a Czech Amber Lager. ",
+    ],
 }, {
     type: 'Eisbock',
     image: 'eisbock.jpg',
@@ -1875,11 +1908,13 @@ let beerData = [{
     history: 'Made by freezing Doppelbock and removing the water content, thus concentrating the alcohol content and creating this very strong, rich beer.',
     relatedstyles: [
         "Dopplebock"
-    ]
-,
-    trivia1: "It is said that this style was invented at the Reichelbräu brewery in Kulmbach, Upper Franconia, around 1890 when some kegs of bock were unwittingly left outside on a particularly frigid night.",
-    trivia2: "This style is also rarely found in the U.S. because of alcohol laws that put the method in the same category as other forms of distillation.",
-    trivia3: "Today, this style may be one of the rarest beer styles around due to the expense and effort that goes into producing it. ",
+    ],
+    yeast: "",
+    trivia: [
+        "It is said that this style was invented at the Reichelbräu brewery in Kulmbach, Upper Franconia, around 1890 when some kegs of bock were unwittingly left outside on a particularly frigid night.",
+        "This style is also rarely found in the U.S. because of alcohol laws that put the method in the same category as other forms of distillation.",
+        "Today, this style may be one of the rarest beer styles around due to the expense and effort that goes into producing it. ",        
+    ],
 }, {
     type: 'Dunkles Weissbier',
     image: 'dunklesweissbier.jpg',
@@ -1905,11 +1940,11 @@ let beerData = [{
     history: 'A dark variation of Weissbier, German versions of this style must still include at least 50% wheat malt.',
     relatedstyles: [
         "Weissbier", "Weizenbock"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Weizenbock',
     image: 'weizenbock.jpg',
@@ -1935,11 +1970,13 @@ let beerData = [{
     history: 'In Germany, this style must conform to two regulations: the grain bill must contain at least 50% wheat malt and the original gravity must be at least 16° P.',
     relatedstyles: [
         "Dunkles Weissbier", "Weissbier"
-    ]
-,
-    trivia1: "In 15th century Bavaria, the brewing of this style was completely controlled by the aristocratic family Degenberger. it was restricted to those in a higher social class.",
-    trivia2: "In 1872, the King Ludwig II, of the Wittelsbach House and current ruler of Bavaria, discontinued all brewing of this style due to the sharply declining sales.",
-    trivia3: "Georg Schneider was a private brewer who had taken over the contract at the royal Bavarian Weisses Hofbrauhaus in Munich in 1855 and resurrected this style. ",
+    ],
+    yeast: "",
+    trivia: [
+        "In 15th century Bavaria, the brewing of this style was completely controlled by the aristocratic family Degenberger. it was restricted to those in a higher social class.",
+        "In 1872, the King Ludwig II, of the Wittelsbach House and current ruler of Bavaria, discontinued all brewing of this style due to the sharply declining sales.",
+        "Georg Schneider was a private brewer who had taken over the contract at the royal Bavarian Weisses Hofbrauhaus in Munich in 1855 and resurrected this style. ",
+    ],
 }, {
     type: 'Altbier',
     image: 'altbier.jpg',
@@ -1965,11 +2002,13 @@ let beerData = [{
     history: 'Meaning "old", these beers are brewed in the "old way", using ale yeast, but cool fermentation temperatures and lagering give a flavor profile with low levels of fruity esters.',
     relatedstyles: [
         "Kölsch "
-    ]
-,
-    trivia1: "This style of beer is classcially brewed in the historical region of Westphalia and around the city of Düsseldorf, Germany. ",
-    trivia2: "The market leader in terms of volume sold is Diebels, a brand within the AB InBev brewing empire. Other mass-market brewers include the Radeberger Gruppe under the brands Schlösser Alt and Hansa Alt. ",
-    trivia3: "This style  is fermented at a moderate temperature using a top-fermenting yeast which gives its flavour some fruitiness, but matured at a cooler temperature, which gives it a cleaner and crisper taste.",
+    ],
+    yeast: "",
+    trivia: [
+        "This style of beer is classcially brewed in the historical region of Westphalia and around the city of Düsseldorf, Germany. ",
+        "The market leader in terms of volume sold is Diebels, a brand within the AB InBev brewing empire. Other mass-market brewers include the Radeberger Gruppe under the brands Schlösser Alt and Hansa Alt. ",
+        "This style  is fermented at a moderate temperature using a top-fermenting yeast which gives its flavour some fruitiness, but matured at a cooler temperature, which gives it a cleaner and crisper taste.",
+    ],
 }, {
     type: 'American Lager',
     image: 'americanlager.jpg',
@@ -1995,11 +2034,13 @@ let beerData = [{
     history: '19th century American brewers added corn or rice to beer recipes to improve clarity.',
     relatedstyles: [
         "American Light Lager", "Cream Ale"
-    ]
-,
-    trivia1: "When John Wagner, a Bavarian brewer, arrived in America in 1840, he came with some precious cargo: a supply of special yeast from his native Bavaria to make this style. ",
-    trivia2: "To conteract higher protien American grains, German-American brewers began adding lower-protein grains, like rice and corn, to more closely emulate the German verison of this style.",
-    trivia3: "This style especially took off in popularity in New York, where, by 1877, George Ehret’s Hell Gate Brewery became the largest in the country.",
+    ],
+    yeast: "",
+    trivia: [
+        "When John Wagner, a Bavarian brewer, arrived in America in 1840, he came with some precious cargo: a supply of special yeast from his native Bavaria to make this style. ",
+        "To conteract higher protien American grains, German-American brewers began adding lower-protein grains, like rice and corn, to more closely emulate the German verison of this style.",
+        "This style especially took off in popularity in New York, where, by 1877, George Ehret’s Hell Gate Brewery became the largest in the country.",
+    ],
 }, {
     type: 'Black IPA',
     image: 'blackipa.jpg',
@@ -2025,11 +2066,13 @@ let beerData = [{
     history: 'Variant of American IPA. Some examples are labeled as Cascadian Dark Ale in the Pacific Northwest US.',
     relatedstyles: [
         "American IPA", "American Stout"
-    ]
-,
-    trivia1: "Most USA writers point toward the early ‘90s as the first period where anyone was regularly brewing beers that we would today identify as this style.",
-    trivia2: "No American craft beer style has ever generated more contentious debate than this style when it comes to nomenclature. ",
-    trivia3: "Brands of this style include Avery Brewing Co. New World Porter, Firestone Walker Wookey Jack, and Stone Enjoy By",
+    ],
+    yeast: "",
+    trivia: [
+        "Most USA writers point toward the early ‘90s as the first period where anyone was regularly brewing beers that we would today identify as this style.",
+        "No American craft beer style has ever generated more contentious debate than this style when it comes to nomenclature. ",
+        "Brands of this style include Avery Brewing Co. New World Porter, Firestone Walker Wookey Jack, and Stone Enjoy By",
+    ],
 }, {
     type: 'White IPA',
     image: 'whiteipa.jpg',
@@ -2055,11 +2098,13 @@ let beerData = [{
     history: 'Developed as a hybrid of American IPA and Belgian Witbier.',
     relatedstyles: [
         "American IPA", "Witbier"
-    ]
-,
-    trivia1: "In 2010, Larry Sidor, the brewmaster at Oregon-based Deschutes Brewery, and Belgian-born Steven Pauwels, brewmaster at Boulevard Brewing, got together to develop a collaboration recipe.",
-    trivia2: "Deschutes called theirs Conflux Series No. 2 and Boulevard’s was simply named Collaboration No. 2 under their Smoke House Series. In 2010, they were a hit!",
-    trivia3: "With a little more heft than a Brut IPA and less hangover-inducing punch than a Hazy IPA, the style is your summer-ready version.",
+    ],
+    yeast: "",
+    trivia: [
+        "In 2010, Larry Sidor, the brewmaster at Oregon-based Deschutes Brewery, and Belgian-born Steven Pauwels, brewmaster at Boulevard Brewing, got together to develop a collaboration recipe.",
+        "Deschutes called theirs Conflux Series No. 2 and Boulevard’s was simply named Collaboration No. 2 under their Smoke House Series. In 2010, they were a hit!",
+        "With a little more heft than a Brut IPA and less hangover-inducing punch than a Hazy IPA, the style is your summer-ready version.",
+    ],
 }, {
     type: 'Cream Ale',
     image: 'creamale.jpg',
@@ -2085,11 +2130,11 @@ let beerData = [{
     history: 'Though referred to as an ale, this style is sometimes brewed with a lager yeast strain. Commonly produced by ale brewers to compete with the popularity of American lagers.',
     relatedstyles: [
         "American Lager", "American Light Lager"
-    ]
-,
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    ],
+    yeast: "",
+    trivia: [
+        ""
+    ],
 }, {
     type: 'Baltic Porter',
     image: 'balticporter.jpg',
@@ -2116,9 +2161,8 @@ let beerData = [{
     relatedstyles: [
         "American Porter", "Imperial Stout", "Schwarzbier"
     ],
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    
+    yeast: "",
 },  {
     type: 'Baltic Porter',
     image: 'balticporter.jpg',
@@ -2145,7 +2189,6 @@ let beerData = [{
     relatedstyles: [
         "American Porter", "Imperial Stout", "Schwarzbier"
     ],
-    trivia1: "",
-    trivia2: "",
-    trivia3: "",
+    
+    yeast: "",
 }, ];
