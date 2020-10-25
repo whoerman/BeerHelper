@@ -913,7 +913,9 @@ let beerData = [{
     ],
     yeast: "",
     trivia: [
-        ""
+        "California, 1975. Anchor Brewing brews its first batch of Liberty Ale, reviving the art of dry-hopping and kicking off the American brewing revolution.",
+        "American malt gives this style a softer and somewhat crisper feel than it's English counterpart.",
+        "Beers of this style are often slightly less balanced, showing a stronger hop profile, then their English brothers.".
     ],
 }, {
     type: 'American Amber Ale',
@@ -943,7 +945,9 @@ let beerData = [{
     ],
     yeast: "",
     trivia: [
-        ""
+        "Darker in color than their pale ale cousins, the presence of caramel and crystal malts lending a toasted, toffee flavor, along with the perception of a fuller body when compared to beers without such malts.",
+        "A highly versatile companion to American cuisine, particularly foods that are grilled or barbecued, as roasted malts complement seared, charred and caramelized proteins making this ale beer type a perennial favorite at backyard cookouts.",
+        "The first and most obvious characteristic of this style is the reddish color, and while closely related to Irish red ales, they tend to use more floral accented hops. ",
     ],
 }, {
     type: 'American IPA',
@@ -973,7 +977,8 @@ let beerData = [{
     ],
     yeast: "",
     trivia: [
-        ""
+        "Unlike the weaker, less, hopped versions that were still available in Britain; the American version harked back to that time when hops and alcohol where piled on to help transported beer arrive in good condition.",
+        "Created with bigger grain bills and loads of hops this reinvention was made to be sipped fresh out of the brewhouse. All the glorious citrus, floral nuance, and fruitful flavor of American hop varieties taking front and center.",
     ],
 }, {
     type: 'Double IPA',
@@ -1003,7 +1008,8 @@ let beerData = [{
     ],
     yeast: "",
     trivia: [
-        ""
+        "The first of this style seems to have been brewed by Vinnie Cilurzo back in June of 1994 for the now closed Blind Pig Brewery of Temecula, California. This was followed in 1996 by Rogue Brewing and in 1998 by Stone Brewing",
+        "Also called Imperial IPA and IIPA, this beer style is a higher alcohol, hoppier version of the American IPA.",
     ],
 }, {
     type: 'American Brown Ale',
