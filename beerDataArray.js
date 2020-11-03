@@ -915,7 +915,7 @@ let beerData = [{
     trivia: [
         "California, 1975. Anchor Brewing brews its first batch of Liberty Ale, reviving the art of dry-hopping and kicking off the American brewing revolution.",
         "American malt gives this style a softer and somewhat crisper feel than it's English counterpart.",
-        "Beers of this style are often slightly less balanced, showing a stronger hop profile, then their English brothers.".
+        "Beers of this style are often slightly less balanced, showing a stronger hop profile, then their English brothers.",
     ],
 }, {
     type: 'American Amber Ale',
@@ -1855,7 +1855,7 @@ let beerData = [{
     trivia: [
         "Before Daniel Wheeler invented his drum kiln in 1818 and changed the course of brewing history forever, the only way to dry malt was directly over an open fire, often resulting in this style. ",
         "There are currently nine breweries within the city of Bamberg, and two of these have become synonymous with this traditional style — Bauerei Schlenkerla and Christian Merz Brauerei Spezial.",
-    "Because drying malt over a fire has a long history, this style has probably been created for over 5000 years.",
+        "Because drying malt over a fire has a long history, this style has probably been created for over 5000 years.",
     ],
 }, {
     type: 'Dunkles Bock',
@@ -2169,6 +2169,9 @@ let beerData = [{
     ],
     
     yeast: "",
+    trivia: [
+        ""
+    ],
 },  {
     type: 'Baltic Porter',
     image: 'balticporter.jpg',
@@ -2197,4 +2200,7 @@ let beerData = [{
     ],
     
     yeast: "",
+    trivia: [
+        ""
+    ],
 }, ];
